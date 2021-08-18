@@ -29,11 +29,13 @@ function analyzer (myScore) {
     else  if(myScore > 20)  {
         arrContent = 3; 
     } //4
-    else  if(myScore > 13) {
+    else  if(myScore > 6 ) {
         arrContent = 2; 
+        document.querySelector(".point").style.cssText = "background-color: red; font-size: 1em; margin-left:5em;" ;
     } //3
-    else if(myScore > 6)     {
+    else if(myScore > 2)     {
         arrContent = 1; 
+        document.querySelector(".point").style.cssText = "background-color: red; font-size: 1em; margin-left:2em;" ;
     } //2
     else  { arrContent = 0; } //1
     
@@ -48,11 +50,31 @@ function total() {
       for (let i = 0; i < 10; i++) {
            myScore = myScore + Quest[i]; 
         } 
+
       analyzer(myScore); 
+
+
+      // if(myScore == 6){
+      //   document.querySelector(".point").style.cssText = "background-color: rgb(255, 0, 0); font-size: 1em" ;
+      // }
+      // else if(myScore == 13){
+      //   document.querySelector(".point").style.cssText = "background-color: green; font-size: 1em" ;
+      // }
+      
     } 
 
 
 function myDisplay(myContents) { 
 document.getElementById("result").innerHTML = (myContents);
+
 } 
+
+
+// -------------------------------
+
+// function cube (){
+//     let point = document.getElementById("point")
+// }
+
+
 

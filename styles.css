@@ -16,15 +16,29 @@ header{
 
 
 section{
-    
     /* grid-template-columns: 20% ; */
     background-color: chartreuse;
-
 }
 
+.chart{
+    background-color: rgb(4, 0, 255);
+    width: 6em;
+    height: 2em;
+}
+
+.point{
+    background-color: red;
+    width: 0.5em;
+    height: 0.5em;
+}
+
+.good{
+    background-color: rgb(255, 0, 0);
+    width: 0.5em;
+    height: 0.5em;
+}
 
 
 footer{
         background-color: chocolate;
-       
 }
