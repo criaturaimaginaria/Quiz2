@@ -5,6 +5,7 @@ let Quest = [];  //set an array for all answers
 function populate() { 
   for (let i = 0; i < 10; i++) { 
       Quest[i] = 0; } 
+      // console.log(Quest)
 } 
 
 
@@ -37,6 +38,8 @@ function analyzer (myScore) {
     else  { arrContent = 0; } //1
     
   myDisplay(myContents[arrContent]) 
+
+  console.log(myScore)
 } 
 
  // this function adds the number of points each answer is worth together 
