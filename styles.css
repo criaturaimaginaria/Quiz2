@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background-color: brown;
+}
+
+
+section{
+    
+    /* grid-template-columns: 20% ; */
+    background-color: chartreuse;
+
+}
+
+
+
+footer{
+        background-color: chocolate;
+       
+}
