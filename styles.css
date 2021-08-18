@@ -27,7 +27,7 @@ section{
 }
 
 .point{
-    background-color: red;
+    /* background-color: red; */
     width: 0.5em;
     height: 0.5em;
 }

@@ -37,7 +37,9 @@ function analyzer (myScore) {
         arrContent = 1; 
         document.querySelector(".point").style.cssText = "background-color: red; font-size: 1em; margin-left:2em;" ;
     } //2
-    else  { arrContent = 0; } //1
+    else  { arrContent = 0; 
+      document.querySelector(".point").style.cssText = "background-color: red; font-size: 1em; " ;
+    } //1
     
   myDisplay(myContents[arrContent]) 
 
