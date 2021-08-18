@@ -1,4 +1,5 @@
 let Quest = [];  //set an array for all answers
+const point = document.querySelector(".point")
 
 // this function gives each of the answers 0 points so if someone doesn't answer a question 
 // the whole thing will continue to work 
@@ -9,7 +10,7 @@ function populate() {
 } 
 
 
-myContents =  ["puto"  , "super puto"  , "super super puto", "jajaja puto" , ]
+myContents =  ["comunista"  , "centrista"  , "capitalista", "jajaja puto" , ]
 
 // each answer points into the array
 function saver(q, points) { 
@@ -17,7 +18,7 @@ function saver(q, points) {
     Quest [q] = points 
   } 
   
-// this function uses the total calculated score to figure out which personality type they are 
+// this function uses the total calculated score to figure out which political ideology do you have
 function analyzer (myScore) { 
 
   if (myScore>34) {
@@ -31,14 +32,14 @@ function analyzer (myScore) {
     } //4
     else  if(myScore > 6 ) {
         arrContent = 2; 
-        document.querySelector(".point").style.cssText = "background-color: red; font-size: 1em; margin-left:5em;" ;
+        point.style.cssText = "background-color: red; font-size: 1em; margin-left:5em;" ;
     } //3
     else if(myScore > 2)     {
         arrContent = 1; 
-        document.querySelector(".point").style.cssText = "background-color: red; font-size: 1em; margin-left:2em;" ;
+        point.style.cssText = "background-color: red; font-size: 1em; margin-left:2em;" ;
     } //2
     else  { arrContent = 0; 
-      document.querySelector(".point").style.cssText = "background-color: red; font-size: 1em; " ;
+      point.style.cssText = "background-color: red; font-size: 1em; " ;
     } //1
     
   myDisplay(myContents[arrContent]) 
