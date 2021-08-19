@@ -21,6 +21,7 @@ section{
 }
 
 .chart{
+    
     background-image: url(compass.jpg);
     background-size: cover;
     /* background-color: rgb(4, 0, 255); */
@@ -38,6 +39,7 @@ section{
 }
 
 .chart2{
+  
     background-image: url(compass2.jpg);
     background-size: cover;
     /* background-color: rgb(4, 0, 255); */
@@ -54,6 +56,7 @@ section{
 } */
 
 .chart3{
+  
     background-image: url(compass.jpg);
     background-size: cover;
     /* background-color: rgb(4, 0, 255); */
@@ -64,16 +67,34 @@ section{
     translateX(0px) translateY(0px) translateZ(-125px) skewX(-20deg) skewY(0deg);
 }
 
+
+
 .point{
     width: 0.5em;
     height: 0.5em;
 }
 
-/* .good{
-    background-color: rgb(255, 0, 0);
+.point2bis{
+    width: 0.1em;
+    height: 0.1em;
+}
+
+.point2{
     width: 0.5em;
     height: 0.5em;
-} */
+}
+
+.point3bis{
+    width: 0.1em;
+    height: 0.1em;
+}
+
+.point3{
+    width: 0.5em;
+    height: 0.5em;
+}
+
+
 
 
 footer{
