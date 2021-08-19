@@ -15,10 +15,9 @@ function populate() {
 myContents =  ["comunista"  , "centrista"  , "capitalista", "ancap" , ]
 
 // each answer points into the array
-function saver(q, points, Vpoints) { 
+function saver(q, econPoints, poliPoints, socialPoints) { 
     q = q - 1; 
-    Quest [q] = {points,  Vpoints}
-    // verticalQ [q] = Vpoints
+    Quest [q] = {econPoints,  poliPoints, socialPoints }
     // console.log(Quest)
   } 
   
@@ -56,37 +55,23 @@ function analyzer (myScore, VeScore) {
 
  // this function adds the number of points each answer is worth together 
 function total() {  
-      let myScore = 0 ;
+      let myScore = 0;
       let VeScore = 0;
+      let socScore = 0;
 
-      questPoints = (Quest.map( quest => quest.points));
-      verticalPoints = (Quest.map( quest => quest.Vpoints));
-      console.log(verticalPoints)
+      questPoints = (Quest.map( quest => quest.econPoints));
+      politicalPoints = (Quest.map( quest => quest.poliPoints));
+      socialPoints = (Quest.map( quest => quest.socialPoints));
 
       for (let i = 0; i < 4; i++) {
-          //  VeScore = VeScore + verticalQ[i];
            myScore = myScore + questPoints[i];
-           VeScore = VeScore + verticalPoints[i];
+           VeScore = VeScore + politicalPoints[i];
+           socScore = socScore + socialPoints[i];
         } 
 
-       
-       
-        console.log(VeScore);
+        console.log(VeScore, VeScore, socScore);
       analyzer(myScore);       
   } 
-
-// let varticall = [0];
-
-// function fun(){
-//   let VeScore = 0;
-   
-//   for ( let i = 0 ; i < 10; i++ ) {
-//      VeScore = VeScore + varticall[i];
-//     } 
-//     console.log(VeScore);
-// }
- 
-// fun()
 
 
 function myDisplay(myContents) { 
