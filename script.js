@@ -1,5 +1,5 @@
 let Quest = [];  //set an array for all answers
-let verticalQ = [];
+
 const point = document.querySelector(".point")
 
 // this function gives each of the answers 0 points so if someone doesn't answer a question 
@@ -7,7 +7,7 @@ const point = document.querySelector(".point")
 function populate() { 
   for (let i = 0; i < 4; i++) { 
       Quest[i] = 0; 
-      verticalQ[i] = 0;
+  
     } 
 } 
 
@@ -32,18 +32,22 @@ function analyzer (myScore, VeScore) {
      } //5
     else  if(myScore > 15)  {
         arrContent = 3; 
-        point.style.cssText = `background-color: red; font-size: 1em; margin-left:${myScore}em; border-radius: 10px;` ;
+        point.style.cssText = `background-color: red; font-size: 1em; margin-left:${myScore}em; 
+        border-radius: 10px;` ;
     } //4
     else  if(myScore >= 6 ) {
         arrContent = 2; 
-        point.style.cssText = `background-color: red; font-size: 1em; margin-left:${myScore}em; border-radius: 10px;` ;
+        point.style.cssText = `background-color: red; font-size: 1em; margin-left:${myScore}em;
+         border-radius: 10px;` ;
     } //3
     else if(myScore >= 4)     {
         arrContent = 1; 
-        point.style.cssText = `background-color: red; font-size: 1em; margin-left:${myScore}em; border-radius: 10px;` ;
+        point.style.cssText = `background-color: red; font-size: 1em; margin-left:${myScore}em; 
+        border-radius: 10px;` ;
     } //2
     else  { arrContent = 4; 
-      point.style.cssText = `background-color: red; font-size: 1em; margin-left:${myScore}em; border-radius: 10px; `;
+      point.style.cssText = `background-color: red; font-size: 1em; margin-left:${myScore}em;
+       border-radius: 10px; `;
     } //1
     
   myDisplay(myContents[arrContent]) 
@@ -69,8 +73,8 @@ function total() {
            socScore = socScore + socialPoints[i];
         } 
 
-        console.log(VeScore, VeScore, socScore);
-      analyzer(myScore);       
+        // console.log(VeScore, VeScore, socScore);
+      analyzer(myScore, VeScore, socScore);       
   } 
 
 
