@@ -32,11 +32,11 @@ function analyzer (myScore) {
     } //4
     else  if(myScore > 6 ) {
         arrContent = 2; 
-        point.style.cssText = "background-color: red; font-size: 1em; margin-left:5em;" ;
+        point.style.cssText = "background-color: red; font-size: 1em; margin-left:14em;" ;
     } //3
     else if(myScore > 2)     {
         arrContent = 1; 
-        point.style.cssText = "background-color: red; font-size: 1em; margin-left:2em;" ;
+        point.style.cssText = "background-color: red; font-size: 1em; margin-left:7em;" ;
     } //2
     else  { arrContent = 0; 
       point.style.cssText = "background-color: red; font-size: 1em; " ;
