@@ -54,16 +54,7 @@ function total() {
            myScore = myScore + Quest[i]; 
         } 
 
-      analyzer(myScore); 
-
-
-      // if(myScore == 6){
-      //   document.querySelector(".point").style.cssText = "background-color: rgb(255, 0, 0); font-size: 1em" ;
-      // }
-      // else if(myScore == 13){
-      //   document.querySelector(".point").style.cssText = "background-color: green; font-size: 1em" ;
-      // }
-      
+      analyzer(myScore);       
     } 
 
 
