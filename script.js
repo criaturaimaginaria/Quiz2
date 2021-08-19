@@ -10,7 +10,7 @@ function populate() {
 } 
 
 
-myContents =  ["comunista"  , "centrista"  , "capitalista", "jajaja puto" , ]
+myContents =  ["comunista"  , "centrista"  , "capitalista", "ancap" , ]
 
 // each answer points into the array
 function saver(q, points) { 
@@ -24,21 +24,22 @@ function analyzer (myScore) {
   if (myScore>34) {
        arrContent = 5;
      } //6
-    else  if (myScore > 27) { 
+    else  if (myScore > 20) { 
         arrContent = 4;
      } //5
-    else  if(myScore > 20)  {
+    else  if(myScore > 15)  {
         arrContent = 3; 
-    } //4
-    else  if(myScore > 6 ) {
-        arrContent = 2; 
         point.style.cssText = "background-color: red; font-size: 1em; margin-left:14em; border-radius: 10px;" ;
+    } //4
+    else  if(myScore >= 6 ) {
+        arrContent = 2; 
+        point.style.cssText = "background-color: red; font-size: 1em; margin-left:8em; border-radius: 10px;" ;
     } //3
-    else if(myScore > 2)     {
+    else if(myScore >= 4)     {
         arrContent = 1; 
-        point.style.cssText = "background-color: red; font-size: 1em; margin-left:7em; border-radius: 10px;" ;
+        point.style.cssText = "background-color: red; font-size: 1em; margin-left:5em; border-radius: 10px;" ;
     } //2
-    else  { arrContent = 0; 
+    else  { arrContent = 4; 
       point.style.cssText = "background-color: red; font-size: 1em; border-radius: 10px; " ;
     } //1
     
