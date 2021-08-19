@@ -16,7 +16,7 @@ header{
 
 
 section{
-    background-color: rgb(60, 121, 0);
+    background-color: rgb(131, 131, 131);
 }
 
 .arrows{
@@ -27,6 +27,7 @@ section{
     height: 40em;
     width: 40em;
     margin-left: 6em;
+    margin-bottom: 2em;
 }
 
 /* .chart-container{
@@ -35,9 +36,9 @@ section{
 } */
 
 .chart{
-    background-image: url(compass.jpg);
+    background-image: url(square2.jpg);
     background-size: cover;
-    margin-left: 9em;
+    margin-left: 10em;
     margin-bottom: -25.8em;
     margin-top: 2.5em;
     width: 20em;
@@ -45,14 +46,14 @@ section{
     transform:  rotateX(-60deg) translateZ(125px) skewX(-24deg) ;
 }
 
-.chart p {
+/* .chart p {
     transform:  rotateX(00deg)skewX(24deg) ;
-}
+} */
 
 .chart2{
-    background-image: url(compass2.jpg);
+    background-image: url(square1.png);
     background-size: cover;
-    margin-left: 9em;
+    margin-left: 10em;
     margin-bottom: 8em;
     margin-top: 2em;
     width: 20em;
@@ -61,9 +62,9 @@ section{
 }
 
 .chart3{
-    background-image: url(compass.jpg);
+    background-image: url(square3.jpg);
     background-size: cover;
-    margin-left: 9em;
+    margin-left: 10em;
    
     width: 20em;
     height: 20em;
