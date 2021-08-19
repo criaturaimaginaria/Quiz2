@@ -21,7 +21,9 @@ section{
 }
 
 .chart{
-    background-color: rgb(4, 0, 255);
+    background-image: url(compass.jpg);
+    background-size: cover;
+    /* background-color: rgb(4, 0, 255); */
     width: 15em;
     height: 15em;
 }
