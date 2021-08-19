@@ -3,27 +3,30 @@
     margin: 0px;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-rows: 15% 70% 15%;
-    width: 100vw;
-    height: 100vh;
+.flex-container{
+    display: flex;
+    flex-direction: column;
+   
+    /* width: 100vw;
+    height: 100vh; */
 }
 
 header{
     background-color: brown;
+    height: 4em;
 }
 
 
 section{
     /* grid-template-columns: 20% ; */
     background-color: chartreuse;
+    padding-bottom: 2.5em;
 }
 
 .chart{
     background-color: rgb(4, 0, 255);
-    width: 6em;
-    height: 2em;
+    width: 15em;
+    height: 15em;
 }
 
 .point{
@@ -32,13 +35,14 @@ section{
     height: 0.5em;
 }
 
-.good{
+/* .good{
     background-color: rgb(255, 0, 0);
     width: 0.5em;
     height: 0.5em;
-}
+} */
 
 
 footer{
         background-color: chocolate;
+        height: 4em;
 }
