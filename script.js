@@ -32,14 +32,14 @@ function analyzer (myScore) {
     } //4
     else  if(myScore > 6 ) {
         arrContent = 2; 
-        point.style.cssText = "background-color: red; font-size: 1em; margin-left:14em;" ;
+        point.style.cssText = "background-color: red; font-size: 1em; margin-left:14em; border-radius: 10px;" ;
     } //3
     else if(myScore > 2)     {
         arrContent = 1; 
-        point.style.cssText = "background-color: red; font-size: 1em; margin-left:7em;" ;
+        point.style.cssText = "background-color: red; font-size: 1em; margin-left:7em; border-radius: 10px;" ;
     } //2
     else  { arrContent = 0; 
-      point.style.cssText = "background-color: red; font-size: 1em; " ;
+      point.style.cssText = "background-color: red; font-size: 1em; border-radius: 10px; " ;
     } //1
     
   myDisplay(myContents[arrContent]) 
