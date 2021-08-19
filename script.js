@@ -11,12 +11,11 @@ const point3bis = document.querySelector(".point3bis")
 function populate() { 
   for (let i = 0; i < 4; i++) { 
       Quest[i] = 0; 
-  
     } 
 } 
 
-
 myContents =  ["comunista"  , "centrista"  , "capitalista", "ancap" , ]
+
 
 // each answer points into the array
 function saver(q, econPoints, poliPoints, socialPoints) { 
@@ -66,33 +65,28 @@ function analyzer (myScore, VeScore, socScore) {
 function analyzer2 (myScore, VeScore, socScore) { 
   arrContent = 0
   // if for social score middle, not progresist and not conservative 
-      if(socScore > 6){
+      if(socScore > 4 && socScore < 10){
             if (myScore & VeScore  > 20) { 
               arrContent = 4;
           } //5
           else if(myScore & VeScore > 15)  {
               arrContent = 3; 
-              point3.style.cssText = `background-color: red;`
-              point3bis.style.cssText = ` font-size: 1em; 
-              margin-left:${myScore}em; padding-top: ${VeScore}em; border-radius: 10px;` ;
+              point2.style.cssText = `background-color: red;border-radius: 10px;`
+              point2bis.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
           } //4
           else  if(myScore & VeScore >= 6 ) {
               arrContent = 2; 
-              point3.style.cssText = `background-color: red;`
-              point3bis.style.cssText = `font-size: 1em; 
-              margin-left:${myScore}em; padding-top: ${VeScore}em; border-radius: 10px;` ;
+              point2.style.cssText = `background-color: red;border-radius: 10px;`
+              point2bis.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
           } //3
           else if(myScore & VeScore >= 4)     {
               arrContent = 1; 
-              point3.style.cssText = `background-color: red;`
-              point3bis.style.cssText = ` font-size: 1em; 
-              margin-left:${myScore}em; padding-top: ${VeScore}em; border-radius: 10px;` ;
+              point2.style.cssText = `background-color: red;border-radius: 10px;`
+              point2bis.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;  
           } //2
           else  { arrContent = 4; 
-            point3.style.cssText = `background-color: red;`
-            point3bis.style.cssText = ` font-size: 1em; 
-            margin-left:${myScore}em; padding-top: ${VeScore}em; border-radius: 10px; `;
-            
+            point2.style.cssText = `background-color: red;border-radius: 10px;`
+            point2bis.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em;  `;
           } //1
          
       }
@@ -107,33 +101,28 @@ function analyzer2 (myScore, VeScore, socScore) {
 function analyzer3 (myScore, VeScore, socScore) { 
   arrContent = 0
   // if for social score progresist 
-      if(socScore > 6){
+      if(socScore > 10){
             if (myScore & VeScore  > 20) { 
               arrContent = 4;
           } //5
           else if(myScore & VeScore > 15)  {
               arrContent = 3; 
-              point3.style.cssText = `background-color: red;`
-              point3bis.style.cssText = ` font-size: 1em; 
-              margin-left:${myScore}em; padding-top: ${VeScore}em; border-radius: 10px;` ;
+              point3.style.cssText = `background-color: red; border-radius: 10px; `
+              point3bis.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; `;   
           } //4
           else  if(myScore & VeScore >= 6 ) {
               arrContent = 2; 
-              point3.style.cssText = `background-color: red;`
-              point3bis.style.cssText = `font-size: 1em; 
-              margin-left:${myScore}em; padding-top: ${VeScore}em; border-radius: 10px;` ;
+              point3.style.cssText = `background-color: red; border-radius: 10px; `
+              point3bis.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; `;   
           } //3
           else if(myScore & VeScore >= 4)     {
               arrContent = 1; 
-              point3.style.cssText = `background-color: red;`
-              point3bis.style.cssText = ` font-size: 1em; 
-              margin-left:${myScore}em; padding-top: ${VeScore}em; border-radius: 10px;` ;
+              point3.style.cssText = `background-color: red; border-radius: 10px; `
+              point3bis.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; `;   
           } //2
           else  { arrContent = 4; 
-            point3.style.cssText = `background-color: red;`
-            point3bis.style.cssText = ` font-size: 1em; 
-            margin-left:${myScore}em; padding-top: ${VeScore}em; border-radius: 10px; `;
-            
+            point3.style.cssText = `background-color: red; border-radius: 10px; `
+            point3bis.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; `;    
           } //1
          
       }
