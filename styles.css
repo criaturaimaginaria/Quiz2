@@ -16,7 +16,7 @@ header{
 
 
 section{
-    background-color: chartreuse;
+    background-color: rgb(60, 121, 0);
    
 }
 
@@ -26,8 +26,8 @@ section{
     /* background-color: rgb(4, 0, 255); */
     margin-left: 6em;
     margin-top: -7em;
-    width: 15em;
-    height: 15em;
+    width: 16em;
+    height: 16em;
     transform:  rotateX(-60deg) rotateY(0deg) rotateZ(0deg) 
     translateX(0px) translateY(0px) translateZ(125px) skewX(-20deg) skewY(0deg);
 }
@@ -42,8 +42,8 @@ section{
     background-size: cover;
     /* background-color: rgb(4, 0, 255); */
     margin-left: 6em;
-    width: 15em;
-    height: 15em;
+    width: 16em;
+    height: 16em;
     transform:  rotateX(-60deg) rotateY(0deg) rotateZ(0deg) 
     translateX(0px) translateY(0px) translateZ(0px) skewX(-20deg) skewY(0deg);
 }
@@ -58,8 +58,8 @@ section{
     background-size: cover;
     /* background-color: rgb(4, 0, 255); */
     margin-left: 6em;
-    width: 15em;
-    height: 15em;
+    width: 16em;
+    height: 16em;
     transform:  rotateX(-60deg) rotateY(0deg) rotateZ(0deg) 
     translateX(0px) translateY(0px) translateZ(-125px) skewX(-20deg) skewY(0deg);
 }
