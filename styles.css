@@ -33,13 +33,12 @@ section{
 }
 
 .chart p {
-    
     transform:  rotateX(00deg) rotateY(0deg) rotateZ(0deg) 
-    translateX(0px) translateY(0px) translateZ(0px) skewX(28deg) skewY(0deg);
+    translateX(0px) translateY(0px) translateZ(0px) skewX(29deg) skewY(0deg);
 }
 
 .chart2{
-    background-image: url(compass.jpg);
+    background-image: url(compass2.jpg);
     background-size: cover;
     /* background-color: rgb(4, 0, 255); */
     margin-left: 6em;
@@ -47,6 +46,11 @@ section{
     height: 15em;
     transform:  rotateX(-60deg) rotateY(0deg) rotateZ(0deg) 
     translateX(0px) translateY(0px) translateZ(0px) skewX(-28deg) skewY(0deg);
+}
+
+.chart2 p{
+    transform:  rotateX(00deg) rotateY(0deg) rotateZ(0deg) 
+    translateX(0px) translateY(0px) translateZ(0px) skewX(29deg) skewY(0deg);
 }
 
 .chart3{
