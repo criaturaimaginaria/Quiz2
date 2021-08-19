@@ -19,36 +19,55 @@ section{
     background-color: rgb(60, 121, 0);
 }
 
+.arrows{
+    background-image: url(arrows.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 40em;
+    width: 40em;
+    margin-left: 6em;
+}
+
+/* .chart-container{
+    padding-top: -8em;
+    margin-top: -5em;
+} */
+
 .chart{
     background-image: url(compass.jpg);
     background-size: cover;
-    margin-left: 6em;
-    margin-top: -7em;
-    width: 16em;
-    height: 16em;
-    transform:  rotateX(-60deg) translateZ(125px) skewX(-20deg) ;
+    margin-left: 9em;
+    margin-bottom: -25.8em;
+    margin-top: 2.5em;
+    width: 20em;
+    height: 20em;
+    transform:  rotateX(-60deg) translateZ(125px) skewX(-24deg) ;
 }
 
 .chart p {
-    transform:  rotateX(00deg)skewX(20deg) ;
+    transform:  rotateX(00deg)skewX(24deg) ;
 }
 
 .chart2{
     background-image: url(compass2.jpg);
     background-size: cover;
-    margin-left: 6em;
-    width: 16em;
-    height: 16em;
-    transform:  rotateX(-60deg) skewX(-20deg); 
+    margin-left: 9em;
+    margin-bottom: 8em;
+    margin-top: 2em;
+    width: 20em;
+    height: 20em;
+    transform:  rotateX(-60deg) skewX(-24deg); 
 }
 
 .chart3{
     background-image: url(compass.jpg);
     background-size: cover;
-    margin-left: 6em;
-    width: 16em;
-    height: 16em;
-    transform:  rotateX(-60deg) translateZ(-125px) skewX(-20deg) ;
+    margin-left: 9em;
+   
+    width: 20em;
+    height: 20em;
+    transform:  rotateX(-60deg) translateZ(-125px) skewX(-24deg) ;
      
 }
 
