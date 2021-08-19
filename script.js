@@ -35,21 +35,21 @@ function analyzer (myScore, VeScore, socScore) {
         } //5
         else if(myScore & VeScore > 15)  {
             arrContent = 3; 
-            consPoint.style.cssText = `background-color: blue;border-radius: 10px;`
+            consPoint.style.cssText = `background-color: white;border-radius: 10px;`
             cons.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
         } //4
         else  if(myScore & VeScore >= 6 ) {
             arrContent = 2; 
-            consPoint.style.cssText = `background-color: blue;border-radius: 10px;`
+            consPoint.style.cssText = `background-color: white;border-radius: 10px;`
             cons.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
         } //3
         else if(myScore & VeScore >= 4)     {
             arrContent = 1; 
-            consPoint.style.cssText = `background-color: blue;border-radius: 10px;`
+            consPoint.style.cssText = `background-color: white;border-radius: 10px;`
             cons.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
         } //2
         else  { arrContent = 4; 
-          consPoint.style.cssText = `background-color: blue;border-radius: 10px;`
+          consPoint.style.cssText = `background-color: white;border-radius: 10px;`
           cons.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
           
         } //1
@@ -72,21 +72,21 @@ function analyzer2 (myScore, VeScore, socScore) {
           } //5
           else if(myScore & VeScore > 15)  {
               arrContent = 3; 
-              midPoint.style.cssText = `background-color: blue;border-radius: 10px;`
+              midPoint.style.cssText = `background-color: white;border-radius: 10px;`
               mid.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
           } //4
           else  if(myScore & VeScore >= 6 ) {
               arrContent = 2; 
-              midPoint.style.cssText = `background-color: blue;border-radius: 10px;`
+              midPoint.style.cssText = `background-color: white;border-radius: 10px;`
               mid.style.cssText = `margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;
           } //3
           else if(myScore & VeScore >= 4)     {
               arrContent = 1; 
-              midPoint.style.cssText = `background-color: blue;border-radius: 10px;`
+              midPoint.style.cssText = `background-color: white;border-radius: 10px;`
               mid.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; ` ;  
           } //2
           else  { arrContent = 4; 
-            midPoint.style.cssText = `background-color: blue;border-radius: 10px;`
+            midPoint.style.cssText = `background-color: white;border-radius: 10px;`
             mid.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em;  `;
           } //1
          
