@@ -1,7 +1,10 @@
 *{
     padding: 0px;
     margin: 0px;
+   
 }
+
+
 
 .flex-container{
     display: flex;
@@ -17,6 +20,10 @@ header{
 
 section{
     background-color: rgb(131, 131, 131);
+}
+
+form{
+    font-size: 1.3rem;
 }
 
 .arrows{

@@ -29,7 +29,7 @@ function saver(q, econPoints, poliPoints, socialPoints) {
 function analyzer (myScore, VeScore, socScore) { 
   arrContent = 0
 // if for social score conservative 
-    if(socScore <= 4){
+    if(socScore <= 6.6){
           if (myScore & VeScore  > 20) { 
             arrContent = 4;
         } //5
@@ -66,7 +66,7 @@ function analyzer (myScore, VeScore, socScore) {
 function analyzer2 (myScore, VeScore, socScore) { 
   arrContent = 0
   // if for social score middle, not progresist and not conservative 
-      if(socScore > 4 && socScore < 10){
+      if(socScore > 6.6 && socScore < 13){
             if (myScore & VeScore  > 20) { 
               arrContent = 4;
           } //5
@@ -102,7 +102,7 @@ function analyzer2 (myScore, VeScore, socScore) {
 function analyzer3 (myScore, VeScore, socScore) { 
   arrContent = 0
   // if for social score progresist 
-      if(socScore > 10){
+      if(socScore > 13){
             if (myScore & VeScore  > 15) { 
               arrContent = 4;
               progPoint.style.cssText = `background-color: white; border-radius: 10px; `
