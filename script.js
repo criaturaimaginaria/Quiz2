@@ -255,7 +255,17 @@ document.getElementById("result").innerHTML = (myContents);
 // - 
 // -
 
-//  : 10 medio ambiente
+//  : 10 educación
+
+// - La educación tiene que ser estatal y debe estar orientada según los intereses del estado/nación
+// - el estado debe garantizar la educación a toda su población, ya sea de gestión privada o estatal
+// - el estado edbe financiar la educación y también regular cierto tipo de contenido.
+// - la educación debe ser totalmente privada sin injerencia estatal respecto a los contenidos, solo puede limitarse a financiarla en caso de que alguien no pueda permitirse pagarla
+// - la educación debe ser completamente privada y libre, el estado no debe meterse en esos asuntos.
+
+    
+
+//  : 11 medio ambiente
 
 // - debe prohibirse la contaminación aunque implique un deterioro económico
 // - se debe restringir con limitacióne sestrictas la contaminación 
@@ -264,6 +274,85 @@ document.getElementById("result").innerHTML = (myContents);
 // - Se contaminaría menos si se estableciesen responsabilidades claras y derechos de propiedad bien definidos con respecto a la contaminación.
 
     
+// ----------eje ecxonomico
+
+
+//  : 12 globalización
+
+// - se debe limitar la entrada de productos extranjeros para favorecer a los nacionales
+// - se debe restringir el producto extranjero porque se produce con mano de obra barata y no se puede competir
+// - se debe limitar la importación de productos extranjeros porque perjudican la cultura local
+// - el estado debe interferir lo menos posible en el comercio internacional con aranceles bajos
+// - El estado no debe entrometerse en el comercio internacional, tanto de forma regulatoria o impositiva
+
+
+//  : 13 impuestos
+
+// - los ricos deberían pagar mas impuestos para aumentar las prestaciónes del estado
+// - los impuestos deberían subir si es necesario
+// - los impuestos no deberían subir, deben ser los justos y suficientes para mantener el funcionamento del estado
+// - Los impuestos deberían reducirse, aunque para ello haya que recortar algunas prestaciones y servicios del Estado.
+// - los impuestos no deberían existir, son un robo
+
+//  : 14 pensiones
+
+// - Las pensiones de jubilación deben ser gestionadas por el Estado con un sistema público de contribuciones obligatorias (Seguridad Social).
+// - las pensiones deben ser de gestión completamente estatal y se debe brindar una jubilación sin aportes a aaqquellas personas que no pudieron durante su vida laboral
+// - las pensiones deberían ser mixtas, privadas con cierta ayuda estatal
+// - las pensiones deben del obligatorias pero de gestión privada
+// - Las pensiones de jubilación son un asunto de ahorro y planificación individual. El Estado no debe exigir contribuciones obligatorias a un sistema público.
+
+
+//  : 15 solidaridad
+
+// - El estado puede y debe encargarse de eliminar y reducir la pobreza y la desigualdad
+// - El estado debe gestionar asistencia a los mas necesitados independientemente de ls ayudas privadas
+// - La solidaridad debe estar principalmente en manos privadas, exceptuandoo algunoss casos particulares
+// - Las instituciones privadas de caridad deben ser las principales canalizadoras de la solidaridad de la sociedad.
+// - La solidaridad debe nacer de la sociedad, el estado no debe meterse, ya que dejaría de ser solidaridad.
+
+
+//  : 16 permisos
+
+// - Los sectores profesionales tienen que estar regulados por las leyes. El ejercicio de las profesiones cualificadas debe requerir de las oportunas licencias y permisos otorgadas en cada caso por el órgano competente del Estado.
+// - Los sectores profesionales deben estar regulados por organismos independientes, como los colegios profesionales. Los profesionales cualificados deben colegiarse en ellos, ya que su supervisión garantiza la calidad de sus servicios.
+// - Las licencias, permisos y colegios profesionales son trabas innecesarias. El ejercicio de cualquier profesión debe ser libre para cualquier persona cualificada.
+
+
+//  : 17 solidaridad
+
+// - el estado debe financiar a los sindicatos y otorgarles funciones especiales
+// - los sindicatos deben tener funciones especiales en la legislación laboral pero no deben ser financiados por el estado
+// - Los sindicatos deben regirse por las normas aplicables a cualquier otra asociación, y no recibir financiación pública o atribuírseles funciones especiales.
+
+
+//  : 18 sanidad
+
+// el estado debe tener el monopolio de la sanidad debido a que no se deben hacer negocios con ella
+// - El Estado debe gestionar centros médicos de carácter público, y financiarlos mediante contribuciones a un seguro médico público de carácter obligatorio (Seguridad Social).
+// - El Estado debe garantizar el acceso universal a la sanidad mediante centros con algún tipo de financiación pública, sean gestionados o no por el Estado.
+// - no debe haber sanidad de gestión p+úbliuca, pero el estado puede financiarle los tratamientos y las medicinas a quienes no puedan pagarlos
+// - Gestionar centros médicos no debe ser una función del Estado. Los centros médicos deben ser privados, y los ciudadanos ser libres de contratar el seguro médico que prefieran.
+
+//  : 19 controles de precios, grandes empresas y mercado laboral
+
+// - 
+// - 
+// - 
+// - 
+// - 
+
+
+
+//  : 20 bancos
+
+// - tanto el banco central como el sistema bancario deben ser publicos y atender a las necesidades sociales 
+// - el banco central debe tener una función especial a la hora de regular la economía mediante tipos de interés ty emisión monetaria
+// - El Banco Central debería reducir sus competencias y ser mas independiente, y los bancos comerciales ser todos de carácter privado.
+// - El banco central debería tener un tipo de cambio fijo (convertibilidad) o ser sumamente cuidadoso a la hora de realizar política monetaria
+// - El banco central no debería existir, el dinero es una institución privado y debería garantizarse la libertad monetaria.
+
+
 
 
 
