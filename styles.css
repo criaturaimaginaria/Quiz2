@@ -101,13 +101,15 @@ section{
 }
 
 .prog{
+
     width: 0.1em;
     height: 0.1em;
-     /* padding-top: 10em;
-    padding-left: 5em; */
+     /* padding-top: 0em;
+    padding-left: 0em; */
 }
 
 .progPoint{
+
     width: 1em;
     height: 1em;
     /* background-color: rgb(0, 68, 255); */
