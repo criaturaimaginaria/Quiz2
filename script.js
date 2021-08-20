@@ -10,7 +10,7 @@ const prog = document.querySelector(".prog")
 // this function gives each of the answers 0 points so if someone doesn't answer a question 
 // the whole thing will continue to work 
 function populate() { 
-  for (let i = 0; i < 4; i++) { 
+  for (let i = 0; i < 20; i++) { 
       Quest[i] = 0; 
     } 
 } 
@@ -22,7 +22,7 @@ myContents =  ["comunista"  , "centrista"  , "capitalista", "ancap" , ]
 function saver(q, econPoints, poliPoints, socialPoints) { 
     q = q - 1; 
     Quest [q] = {econPoints,  poliPoints, socialPoints }
-    // console.log(Quest)
+    console.log(Quest)
   } 
   
 // this function uses the total calculated score to figure out which political ideology do you have
@@ -103,27 +103,29 @@ function analyzer3 (myScore, VeScore, socScore) {
   arrContent = 0
   // if for social score progresist 
       if(socScore > 10){
-            if (myScore & VeScore  > 20) { 
+            if (myScore & VeScore  > 15) { 
               arrContent = 4;
+              progPoint.style.cssText = `background-color: white; border-radius: 10px; `
+              prog.style.cssText = ` padding-left:${myScore}em; padding-top: ${VeScore}em; `;  
           } //5
-          else if(myScore & VeScore > 15)  {
+          else if(myScore & VeScore > 10)  {
               arrContent = 3; 
               progPoint.style.cssText = `background-color: white; border-radius: 10px; `
-              prog.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; `;   
+              prog.style.cssText = ` padding-left:${myScore}em; padding-top: ${VeScore}em; `;   
           } //4
           else  if(myScore & VeScore >= 6 ) {
               arrContent = 2; 
               progPoint.style.cssText = `background-color: white; border-radius: 10px; `
-              prog.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; `;   
+              prog.style.cssText = ` padding-left:${myScore}em; padding-top: ${VeScore}em; `;   
           } //3
           else if(myScore & VeScore >= 4)     {
               arrContent = 1; 
               progPoint.style.cssText = `background-color: white; border-radius: 10px; `
-              prog.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; `;   
+              prog.style.cssText = ` padding-left:${myScore}em; padding-top: ${VeScore}em; `;   
           } //2
           else  { arrContent = 4; 
             progPoint.style.cssText = `background-color: white; border-radius: 10px; `
-            prog.style.cssText = ` margin-left:${myScore}em; padding-top: ${VeScore}em; `;    
+            prog.style.cssText = ` padding-left:${myScore}em; padding-top: ${VeScore}em; `;    
           } //1
          
       }
@@ -146,7 +148,7 @@ function total() {
       politicalPoints = (Quest.map( quest => quest.poliPoints));
       socialPoints = (Quest.map( quest => quest.socialPoints));
 
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 20; i++) {
            myScore = myScore + questPoints[i];
            VeScore = VeScore + politicalPoints[i];
            socScore = socScore + socialPoints[i];
@@ -321,7 +323,7 @@ document.getElementById("result").innerHTML = (myContents);
 // - Las licencias, permisos y colegios profesionales son trabas innecesarias. El ejercicio de cualquier profesión debe ser libre para cualquier persona cualificada.
 
 
-//  : 17 solidaridad
+//  : 17 sindicatos
 
 // - los sindicatos no son necesarios si el estado se ocupa de todos los problemas de los trabajardores eficientemente 
 // - el estado debe financiar a los sindicatos y otorgarles funciones especiales

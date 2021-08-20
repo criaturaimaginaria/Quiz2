@@ -103,6 +103,8 @@ section{
 .prog{
     width: 0.1em;
     height: 0.1em;
+     /* padding-top: 10em;
+    padding-left: 5em; */
 }
 
 .progPoint{
