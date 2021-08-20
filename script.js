@@ -223,7 +223,7 @@ document.getElementById("result").innerHTML = (myContents);
 // - La seguridad de todos está por encima de los derechos de uno solo; Las fuerzas de
       //  seguridad del Estado no deben ver su función entorpecida porque un posible criminal 
       //  se ampare en sus derechos individuales.
-
+// 
 // - la ley debe preveer en que casos se debe vulnerar derechos individuales como medidas preventivas 
 // - El Estado no debe vulnerar ningún derecho individual por motivos de seguridad.
 // - el estado no debe encargarse de la seguridad, la seguridad debería ser completamente privada
@@ -231,7 +231,7 @@ document.getElementById("result").innerHTML = (myContents);
 //  : 7 discriminación y desigualdad entre hombres y mujeres
 
 // - Las cuotas no son necesarias, se debe ir hacia un sistema donde todos ganen lo que merecen segun su trabajo
-
+// 
 // - Las cuotas obligatorias son el mejor instrumento para remediar las situaciones de discriminación histórica.
 // - Las ayudas para la integración o los beneficios fiscales a los grupos menos representados son el mejor
     //  instrumento para paliar la discriminación.
@@ -315,13 +315,17 @@ document.getElementById("result").innerHTML = (myContents);
 //  : 16 permisos
 
 // - Los sectores profesionales tienen que estar regulados por las leyes. El ejercicio de las profesiones cualificadas debe requerir de las oportunas licencias y permisos otorgadas en cada caso por el órgano competente del Estado.
+// 
 // - Los sectores profesionales deben estar regulados por organismos independientes, como los colegios profesionales. Los profesionales cualificados deben colegiarse en ellos, ya que su supervisión garantiza la calidad de sus servicios.
+// 
 // - Las licencias, permisos y colegios profesionales son trabas innecesarias. El ejercicio de cualquier profesión debe ser libre para cualquier persona cualificada.
 
 
 //  : 17 solidaridad
 
+// - los sindicatos no son necesarios si el estado se ocupa de todos los problemas de los trabajardores eficientemente 
 // - el estado debe financiar a los sindicatos y otorgarles funciones especiales
+// 
 // - los sindicatos deben tener funciones especiales en la legislación laboral pero no deben ser financiados por el estado
 // - Los sindicatos deben regirse por las normas aplicables a cualquier otra asociación, y no recibir financiación pública o atribuírseles funciones especiales.
 
@@ -341,8 +345,6 @@ document.getElementById("result").innerHTML = (myContents);
 // - 
 // - 
 // - 
-
-
 
 //  : 20 bancos
 
