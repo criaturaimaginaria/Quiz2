@@ -154,7 +154,7 @@ function total() {
            socScore = socScore + socialPoints[i];
         } 
 
-        // console.log(VeScore, VeScore, socScore);
+        console.log(VeScore, VeScore, socScore);
       analyzer(myScore, VeScore, socScore);      
       analyzer2(myScore, VeScore, socScore);   
       analyzer3(myScore, VeScore, socScore);    
