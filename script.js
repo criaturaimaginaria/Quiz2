@@ -133,7 +133,7 @@ function analyzer3 (myScore, VeScore, socScore) {
       console.log(arrContent)
     // myDisplay(myContents[arrContent]) 
   
-    // console.log(myScore)
+    
     
   } 
 
