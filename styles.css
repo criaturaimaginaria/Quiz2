@@ -26,6 +26,11 @@ form{
     font-size: 1.3rem;
 }
 
+.btn{
+    font-size: 2em;
+    padding:0.1em;
+}
+
 .arrows{
     background-image: url(arrows.png);
     background-repeat: no-repeat;
