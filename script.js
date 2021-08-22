@@ -68,7 +68,7 @@ function contentNumber (myScore, VeScore, socScore) {
           socArrow = progresista
         }
 
-  contentDisplay(socArrow[contNumber] )
+  contentDisplay([socArrow][contNumber] )
   // console.log(contNumber)
 
 }
@@ -111,8 +111,8 @@ function total() {
 
 
 // ------------------------pruebas--------------------
-document.getElementById("result").innerHTML = `<br>  <B>${(progresista[8].name)} </B> <br> 
-${(progresista[8].description)}  <br>  <img src="${(progresista[8].symbol)}" class="symbol" > `
+// document.getElementById("result").innerHTML = `<br>  <B>${(progresista[8].name)} </B> <br> 
+// ${(progresista[8].description)}  <br>  <img src="${(progresista[8].symbol)}" class="symbol" > `
 
 
 
