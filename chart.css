@@ -18,11 +18,12 @@
     background-image: url(square2.jpg);
     background-size: cover;
     margin-left: 10em;
-    margin-bottom: -25.8em;
-    margin-top: 2.5em;
-    width: 20em;
-    height: 20em;
+    margin-bottom: -31.5em;
+    margin-top: 4em;
+    width: 21em;
+    height: 21em;
     transform:  rotateX(-60deg) translateZ(125px) skewX(-24deg) ;
+    border: 2px solid black;
 }
 
 /* .chart p {
@@ -33,11 +34,12 @@
     background-image: url(square1.png);
     background-size: cover;
     margin-left: 10em;
-    margin-bottom: 8em;
-    margin-top: 2em;
-    width: 20em;
-    height: 20em;
+    margin-bottom: 7.5em;
+    margin-top: 6em;
+    width: 21em;
+    height: 21em;
     transform:  rotateX(-60deg) skewX(-24deg); 
+    border: 2px solid black;
 }
 
 .chart3{
@@ -45,10 +47,10 @@
     background-size: cover;
     margin-left: 10em;
    
-    width: 20em;
-    height: 20em;
+    width: 21em;
+    height: 21em;
     transform:  rotateX(-60deg) translateZ(-125px) skewX(-24deg) ;
-     
+    border: 2px solid black;
 }
 
 

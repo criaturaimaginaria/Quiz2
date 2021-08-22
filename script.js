@@ -52,24 +52,24 @@ function analyzer (myScore, VeScore, socScore) {
 function contentNumber (myScore, VeScore, socScore) { 
         // if for social score conservative 
       if(socScore <= 6.6  ){
-        console.log("con")
         contNumber = 0
+        socArrow = conservador
       }
 
       // if for social score middle, not progresist and not conservative 
       else if(socScore > 6.6 && socScore < 13){
-        console.log("mid")
         contNumber = 1
+        socArrow = socialMiddle
       }
 
         // if for social score progresist 
         else if(socScore > 13){
-          console.log("prog")
           contNumber = 2
+          socArrow = progresista
         }
 
-  contentDisplay(conservador[contNumber].name)
-  console.log(contNumber)
+  contentDisplay(socArrow[contNumber] )
+  // console.log(contNumber)
 
 }
 
@@ -97,16 +97,23 @@ function total() {
   
   } 
 
+//display the data from the file contents.js
+  function contentDisplay(socArrow) { 
 
-  // console.log(myScore, VeScore, socScore)
-  
-  // document.getElementById("imga").innerHTML = `<img src="${(socialMiddle[3].symbol)}" class="symbol" >`
-  // document.getElementById("result").innerHTML = `<br> ${(socialMiddle[3].name)}  <br> ${(socialMiddle[3].description)} `
+    document.getElementById("result").innerHTML = `<br> <B> ${(socialMiddle[3].name)} </B>  <br> 
+    ${(socialMiddle[3].description)}  <br>  <img src="${(socialMiddle[3].symbol)}" class="symbol" > `
 
-  function contentDisplay(conservador) { 
-    document.getElementById("result").innerHTML = (conservador);
-    console.log((conservador) + "content display")
     } 
+
+
+
+
+
+
+// ------------------------pruebas--------------------
+document.getElementById("result").innerHTML = `<br>  <B>${(progresista[8].name)} </B> <br> 
+${(progresista[8].description)}  <br>  <img src="${(progresista[8].symbol)}" class="symbol" > `
+
 
 
 
