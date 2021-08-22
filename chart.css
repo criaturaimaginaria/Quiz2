@@ -1,0 +1,97 @@
+.arrows{
+    background-image: url(arrows.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 40em;
+    width: 40em;
+    margin-left: 6em;
+    margin-bottom: 2em;
+}
+
+/* .chart-container{
+    padding-top: -8em;
+    margin-top: -5em;
+} */
+
+.chart{
+    background-image: url(square2.jpg);
+    background-size: cover;
+    margin-left: 10em;
+    margin-bottom: -25.8em;
+    margin-top: 2.5em;
+    width: 20em;
+    height: 20em;
+    transform:  rotateX(-60deg) translateZ(125px) skewX(-24deg) ;
+}
+
+/* .chart p {
+    transform:  rotateX(00deg)skewX(24deg) ;
+} */
+
+.chart2{
+    background-image: url(square1.png);
+    background-size: cover;
+    margin-left: 10em;
+    margin-bottom: 8em;
+    margin-top: 2em;
+    width: 20em;
+    height: 20em;
+    transform:  rotateX(-60deg) skewX(-24deg); 
+}
+
+.chart3{
+    background-image: url(square3.jpg);
+    background-size: cover;
+    margin-left: 10em;
+   
+    width: 20em;
+    height: 20em;
+    transform:  rotateX(-60deg) translateZ(-125px) skewX(-24deg) ;
+     
+}
+
+
+/* -------------point circle--------------- */
+
+.cons{
+    width: 0.1em;
+    height: 0.1em;
+    /* padding-top: 10em;
+    padding-left: 5em; */
+}
+.consPoint{
+    width: 1em;
+    height: 1em;
+    /* background-color: white; */
+    
+}
+
+.mid{
+    width: 0.1em;
+    height: 0.1em;
+    
+}
+
+.midPoint{
+    width: 1em;
+    height: 1em;
+    /* background-color: rgb(129, 0, 0); */
+
+}
+
+.prog{
+
+    width: 0.1em;
+    height: 0.1em;
+     /* padding-top: 20em;
+    padding-left: 0em; */
+}
+
+.progPoint{
+
+    width: 1em;
+    height: 1em;
+    /* background-color: rgb(0, 68, 255); */
+}
+/* -------------------------------- */

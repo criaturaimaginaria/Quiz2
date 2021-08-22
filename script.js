@@ -9,6 +9,7 @@ const progPoint = document.querySelector(".progPoint")
 const prog = document.querySelector(".prog")
 
 
+// for this we need to create a server, we can use : python -m http.server
 // fetch("./data.json")
 // .then(response => { return response.json();})
 // .then(data => console.log(data));
@@ -87,7 +88,8 @@ function total() {
   } 
 
   console.log(conservador,socialMiddle,progresista)
-  console.log(conservador[0].name)
+
+  document.getElementById("imga").innerHTML = `<img src="${(socialMiddle[3].symbol)}" class="symbol" >`
 
 function myDisplay(conservador) { 
 document.getElementById("result").innerHTML = (conservador);

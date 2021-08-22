@@ -31,8 +31,17 @@ socialMiddle =  {
 
     2: {
       name: "clasic liberalismo",
-      description: "los de scentro no tienen una ideología bla bla"
+      description: "los de scentro no tienen una ideología bla bla",
+      symbol: './symbols/gadsden.png'
+    },
+
+    3: {
+      name: "social democracia",
+      description: "los de scentro no tienen una ideología bla bla",
+      symbol: './symbols/socialDemocracia.png'
     }
+
+    
 }
 
 progresista =  {
