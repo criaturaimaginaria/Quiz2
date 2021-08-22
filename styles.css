@@ -12,8 +12,15 @@
 }
 
 header{
-    background-color: brown;
-    height: 4em;
+    background-color: rgb(49, 49, 49);
+    height: 8em;
+    color: white;
+    text-align: center;
+}
+
+header p {
+     margin-top: 2em ;
+     font-size: 1.5em;
 }
 
 
@@ -36,6 +43,13 @@ form{
 
 
 footer{
-        background-color: chocolate;
-        height: 4em;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: rgb(49, 49, 49);
+    height: 5em;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin-top: 1.5em;
 }

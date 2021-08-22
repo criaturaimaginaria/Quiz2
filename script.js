@@ -88,8 +88,9 @@ function total() {
   } 
 
   console.log(conservador,socialMiddle,progresista)
-
+  
   document.getElementById("imga").innerHTML = `<img src="${(socialMiddle[3].symbol)}" class="symbol" >`
+  document.getElementById("result").innerHTML = `<br> ${(socialMiddle[3].name)}  <br> ${(socialMiddle[3].description)} `
 
 function myDisplay(conservador) { 
 document.getElementById("result").innerHTML = (conservador);
