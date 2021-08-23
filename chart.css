@@ -102,7 +102,9 @@
 /* responsive /////////////////////////////////////// */
 
 @media only screen and (max-width: 415px ){
-  
+  *{
+      font-size: 8px;
+  }
     .arrows{
         margin-left: 0em;
         
