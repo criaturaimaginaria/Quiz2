@@ -28,8 +28,15 @@ section{
     background-color: rgb(131, 131, 131);
 }
 
-form{
+form{ 
+
     font-size: 1.3rem;
+    margin-left: 1em;
+}
+
+.wrapper-container{
+   text-align:inherit;
+    width: 60vw;
 }
 
 .btn{

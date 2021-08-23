@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="chart.css">
+    <link rel="stylesheet" href="radio.css">
     <title>3D political spectrum test</title>
 </head>
 <body onLoad="populate()">
@@ -23,23 +24,27 @@
                     <p>usted debe contestar las preguntas de la siguiente forma</p> <br>
     
                     <form name="personalityForm">
-                        <div class="wrapper container"> 
+                        <div class="wrapper-container"> 
 
                             <div class="quiz-box quiz-1">  
                                 <h2 class="quiz-question">1. libertad de expresión</h2>
                            
-                                  <label><input type="radio" name="q1" onClick="saver(1,0,1,0)">
-                                    debe prohibirse la difusión de opiniónes o ideas equivocadas  </label> <br>
-                                  <label><input type="radio" name="q1" onClick="saver(1,0,0.8,0)"> 
-                                    debe prohibirse la difusión de opiniónes o ideas equivocadas 
-                                    solo si se hace con esa itnención</label> <br>
-                                  <label><input type="radio" name="q1" onClick="saver(1,0,0.5,0.35)"> 
-                                    se debe prohibir la apología a ideologías extremas</label> <br>
-                                  <label><input type="radio" name="q1" onClick="saver(1,0,0.2,0.65)"> 
-                                    se debe prohibir ideologías que parecen inofensivas pero que <br>
-                                    a largo plazo son dañinas parala sociedad y sus costumbres</label> <br>
-                                  <label><input type="radio" name="q1" onClick="saver(1,0,0,1.3)">
-                                    el estado no debe censurar ninguna opinión en ningún caso.</label> <br>
+                                <input type="radio" name="q1" onClick="saver(1,0,1,0)" id="1">
+                                <label for="1"> debe prohibirse la difusión de opiniónes o ideas equivocadas </label> <br>
+                               
+                                <input type="radio" name="q1" onClick="saver(1,0,0.8,0)" id="2"> 
+                                <label for="2"> prohibirse la difusión de opiniónes o ideas equivocadas 
+                                solo si se hace con esa itnención </label> <br>
+                                
+                                <input type="radio" name="q1" onClick="saver(1,0,0.5,0.35)" id="3"> 
+                                <label for="3"> se debe prohibir la apología a ideologías extremas</label> <br>
+                                
+                                <input type="radio" name="q1" onClick="saver(1,0,0.2,0.65)" id="4"> 
+                                <label for="4"> se debe prohibir ideologías que parecen inofensivas pero que 
+                                a largo plazo son dañinas parala sociedad y sus costumbres</label> <br>
+                                
+                                <input type="radio" name="q1" onClick="saver(1,0,0,1.3)" id="5">
+                                <label for="5"> el estado no debe censurar ninguna opinión en ningún caso.</label> <br>
                                   
                             
                             </div>  
@@ -48,34 +53,42 @@
                               <div class="quiz-box quiz-2">  
                                 <h2 class="quiz-question">2. religión</h2> 
 
-                                  <label><input type="radio" name="q2" onClick="saver(2,0,1,1.65)">
-                                    la religión debería estar prohibida</label> <br>
-                                  <label><input type="radio" name="q2" onClick="saver(2,0,0.8,10)"> 
-                                    algúnas religiónes extremas deberían estar prohibidas</label> <br>
-                                  <label><input type="radio" name="q2" onClick="saver(2,0,0.5,0)">
-                                    el estado debe contribuir y legislar teniendo en cuenta la religión verdadera </label> <br>
-                                  <label><input type="radio" name="q2" onClick="saver(2,0,0.2,0)">
-                                    el estado no debe legislar teniendo en cuenta la religi´pon pero si financiarla</label> <br>
-                                  <label><input type="radio" name="q2" onClick="saver(2,0,0,1.65)"> 
-                                    debe haber  libertad religiosa absoluta sin ninguna ayuda coactiva</label> <br>
+                                 <input type="radio" name="q2" onClick="saver(2,0,1,1.65)" id="6">
+                                  <label for="6"> la religión debería estar prohibida</label> <br>
+
+                                <input type="radio" name="q2" onClick="saver(2,0,0.8,10)" id="7"> 
+                                <label for="7"> algúnas religiónes extremas deberían estar prohibidas</label> <br>
+
+                               <input type="radio" name="q2" onClick="saver(2,0,0.5,0)" id="8">
+                                <label for="8"> el estado debe contribuir y legislar teniendo en cuenta la religión verdadera </label> <br>
+
+                                <input type="radio" name="q2" onClick="saver(2,0,0.2,0)" id="9">
+                                <label for="9">  el estado no debe legislar teniendo en cuenta la religi´pon pero si financiarla</label> <br>
+
+                                 <input type="radio" name="q2" onClick="saver(2,0,0,1.65)" id="10"> 
+                                  <label for="10">  debe haber  libertad religiosa absoluta sin ninguna ayuda coactiva</label> <br>
                          
                               </div>  
 
                               <div class="quiz-box quiz-3">  
                                 <h2 class="quiz-question">3. servicio militar</h2> 
 
-                                  <label><input type="radio" name="q3" onClick="saver(3,0,1,0)"> 
-                                    El Servicio Militar debe ser obligatorio como forma de contribuir al bien común </label> <br>
-                                  <label><input type="radio" name="q3" onClick="saver(3,0,0.8,0)">
-                                    El Servicio Militar debe ser obligatorio para proteger la nación y formar a  los jóvenes.</label> <br>
-                                  <label><input type="radio" name="q3" onClick="saver(3,0,0.5,0.38)">
-                                    El Sercicio Militar debe ser voluntario. Es el mejor modo de tener un ejército profesional <br>
+                                 <input type="radio" name="q3" onClick="saver(3,0,1,0)" id="11" > 
+                                   <label for="11">  El Servicio Militar debe ser obligatorio como forma de contribuir al bien común </label> <br>
+
+                                  <input type="radio" name="q3" onClick="saver(3,0,0.8,0)" id="12">
+                                   <label for="12"> El Servicio Militar debe ser obligatorio para proteger la nación y formar a  los jóvenes.</label> <br>
+                                    
+                                 <input type="radio" name="q3" onClick="saver(3,0,0.5,0.38)" id="13">
+                                   <label for="13">  El Sercicio Militar debe ser voluntario. Es el mejor modo de tener un ejército profesional <br>
                                     y preparado para defender nuestros intereses y compromisos en el exterior. </label> <br>
-                                  <label><input type="radio" name="q3" onClick="saver(3,0,0.2,0.65)">
-                                    El Servicio Militar debería ser voluntario en caso de existir ejército, y de ser así, <br>
+
+                                  <input type="radio" name="q3" onClick="saver(3,0,0.2,0.65)" id="14">
+                                  <label for="14">  El Servicio Militar debería ser voluntario en caso de existir ejército, y de ser así, <br>
                                     su naturaleza debería limitarse a sus funciones más esenciales de defensa. </label> <br>
-                                  <label><input type="radio" name="q3" onClick="saver(3,0,0,1.3)"> 
-                                    la defensa de un territorio debe darse de forma totalmente privada y sus soldados  <br>
+
+                                 <input type="radio" name="q3" onClick="saver(3,0,0,1.3)" id="15"> 
+                                   <label for="15">  la defensa de un territorio debe darse de forma totalmente privada y sus soldados  <br>
                                     deben ser reclutados de forma totalmente voluntaria</label> <br>
                          
                               </div>  
@@ -83,55 +96,67 @@
                               <div class="quiz-box quiz-4">  
                                 <h2 class="quiz-question">4. sexo</h2> 
 
-                                  <label><input type="radio" name="q4" onClick="saver(4,0,1,0)"> 
-                                    Conductas como la homosexualidad, la poligamia o la prostitución deben prohibirse</label> <br>
-                                  <label><input type="radio" name="q4" onClick="saver(4,0,0.8,0)"> 
-                                    Conductas y prácticas sexuales como la homosexualidad o la prostitución,
+                                  <input type="radio" name="q4" onClick="saver(4,0,1,0)" id="16"> 
+                                  <label for="16">  Conductas como la homosexualidad, la poligamia o la prostitución deben prohibirse</label> <br>
+
+                                  <input type="radio" name="q4" onClick="saver(4,0,0.8,0)" id="17"> 
+                                   <label for="17"> Conductas y prácticas sexuales como la homosexualidad o la prostitución,
                                      deben estar fuertemente controladas.</label> <br>
-                                  <label><input type="radio" name="q4" onClick="saver(4,0,0.5,0)"> 
-                                    Aunque no sean de mi agrado las conductas homosexuales etc el estado no debería intervenir
+
+                                  <input type="radio" name="q4" onClick="saver(4,0,0.5,0)" id="18"> 
+                                  <label for="18">  Aunque no sean de mi agrado las conductas homosexuales etc el estado no debería intervenir
                                     demasiado en los asuntos privados de las personas</label> <br>
-                                  <label><input type="radio" name="q4" onClick="saver(4,0,0.2,0.65)"> 
-                                   el estado no debe legislar sobre asuntos privados salvo en ocasiones muy puntuales y previamente estudiadas</label> <br>
-                                  <label><input type="radio" name="q4" onClick="saver(4,0,0,1.3)"> 
-                                    el estado no debe legislar sobre asuntos privados y consensuados entre adultos</label> <br>
+
+                                 <input type="radio" name="q4" onClick="saver(4,0,0.2,0.65)" id="19"> 
+                                   <label for="19"> el estado no debe legislar sobre asuntos privados salvo en ocasiones muy puntuales y previamente estudiadas</label> <br>
+
+                                  <input type="radio" name="q4" onClick="saver(4,0,0,1.3)" id="20"> 
+                                  <label for="20">  el estado no debe legislar sobre asuntos privados y consensuados entre adultos</label> <br>
                          
                               </div>  
 
                               <div class="quiz-box quiz-5">  
                                 <h2 class="quiz-question">5.drogas</h2> 
 
-                                  <label><input type="radio" name="q5" onClick="saver(5,0,1,0.90)"> 
-                                    se debe combatir penar tanto al consumidor como al traficante con penas severas</label> <br>
-                                  <label><input type="radio" name="q5" onClick="saver(5,0,0.8,0)"> 
-                                    el estado debe combatir el tráfico de drogas y penar al traficante, no al consumidor</label> <br>
-                                  <label><input type="radio" name="q5" onClick="saver(5,0,0.5,0.50)"> 
-                                    El uso de algunas de las drogas prohibidas actualmente debería ser legal, 
+                                  <input type="radio" name="q5" onClick="saver(5,0,1,0.90)" id="21"> 
+                                   <label for="21"> se debe combatir penar tanto al consumidor como al traficante con penas severas</label> <br>
+
+                                  <input type="radio" name="q5" onClick="saver(5,0,0.8,0)" id="22"> 
+                                  <label for="22">  el estado debe combatir el tráfico de drogas y penar al traficante, no al consumidor</label> <br>
+
+                                  <input type="radio" name="q5" onClick="saver(5,0,0.5,0.50)" id="23"> 
+                                  <label for="23">  El uso de algunas de las drogas prohibidas actualmente debería ser legal, 
                                     aunque debería controlarse su distribución</label> <br>
-                                  <label><input type="radio" name="q5" onClick="saver(5,0,0.2,0.65)"> 
-                                    El uso de algunas de las drogas prohibidas actualmente debería ser legal,  <br>
+                                    
+                                  <input type="radio" name="q5" onClick="saver(5,0,0.2,0.65)" id="24"> 
+                                  <label for="24">  El uso de algunas de las drogas prohibidas actualmente debería ser legal,  <br>
                                     aunque debería controlarse su distribución, su prohibición no ayuda a <br>
                                     luchas contra el narcotráfico </label> <br>
-                                  <label><input type="radio" name="q5" onClick="saver(5,0,0,1.3)"> 
-                                    Deberían legalizarse las drogas, despenalizando su uso y liberalizando su distribución.</label> <br>
+
+                                  <input type="radio" name="q5" onClick="saver(5,0,0,1.3)" id="25"> 
+                                  <label for="25">  Deberían legalizarse las drogas, despenalizando su uso y liberalizando su distribución.</label> <br>
                          
                               </div>  
 
                               <div class="quiz-box quiz-6">  
                                 <h2 class="quiz-question">6. seguridad</h2> 
 
-                                  <label><input type="radio" name="q6" onClick="saver(6,0,1,0)"> 
-                                    La seguridad de todos está por encima de los derechos de uno solo; Las fuerzas de <br>
+                                  <input type="radio" name="q6" onClick="saver(6,0,1,0)" id="26"> 
+                                   <label for="26"> La seguridad de todos está por encima de los derechos de uno solo; Las fuerzas de <br>
                                     seguridad del Estado no deben ver su función entorpecida porque un posible criminal  <br>
                                     se ampare en sus derechos individuales.</label> <br>
-                                  <label><input type="radio" name="q6" onClick="saver(6,0,0.8,0.35)"> 
-                                    la seguridad del bien común es mas importante que el derecho de un solo individuo </label> <br>
-                                  <label><input type="radio" name="q6" onClick="saver(6,0,0.5,0.65)"> 
-                                    la ley debe preveer en que casos se debe vulnerar derechos individuales como medidas preventivas </label> <br>
-                                  <label><input type="radio" name="q6" onClick="saver(6,0,0.2,0.65)"> 
-                                    El Estado no debe vulnerar ningún derecho individual por motivos de seguridad.</label> <br>
-                                  <label><input type="radio" name="q6" onClick="saver(6,0,0,1.3)"> 
-                                    el estado no debe encargarse de la seguridad, ello siempre conlleva <br>
+
+                                  <input type="radio" name="q6" onClick="saver(6,0,0.8,0.35)" id="27"> 
+                                  <label for="27"> la seguridad del bien común es mas importante que el derecho de un solo individuo </label> <br>
+
+                                  <input type="radio" name="q6" onClick="saver(6,0,0.5,0.65)" id="28"> 
+                                  <label for="28">  la ley debe preveer en que casos se debe vulnerar derechos individuales como medidas preventivas </label> <br>
+
+                                  <input type="radio" name="q6" onClick="saver(6,0,0.2,0.65)" id="29"> 
+                                  <label for="29">  El Estado no debe vulnerar ningún derecho individual por motivos de seguridad.</label> <br>
+
+                                  <input type="radio" name="q6" onClick="saver(6,0,0,1.3)" id="30"> 
+                                  <label for="30"> el estado no debe encargarse de la seguridad, ello siempre conlleva <br>
                                     atropellos a la libertad indiviudal, la seguridad debería ser <br>
                                      completamente privada y contractual según el territorio</label> <br>
                          
@@ -140,17 +165,21 @@
                               <div class="quiz-box quiz-7">  
                                 <h2 class="quiz-question">7. discriminación y desigualdad entre hombres y mujeres</h2> 
 
-                                  <label><input type="radio" name="q7" onClick="saver(7,0,1,0.65)"> 
-                                    Las cuotas no son necesarias, se debe ir hacia un sistema donde todos ganen lo mismo o lo que merecen segun su trabajo</label> <br>
-                                  <label><input type="radio" name="q7" onClick="saver(7,0,0.8,0.80)"> 
-                                   las cuotas deberían ser obligatorias solo en algunos rubros estratégicos</label> <br>
-                                  <label><input type="radio" name="q7" onClick="saver(7,0,0.5,0.65)"> 
-                                    Las cuotas obligatorias son el mejor instrumento para remediar las situaciones de discriminación histórica.</label> <br>
-                                  <label><input type="radio" name="q7" onClick="saver(7,0,0.2,0.65)"> 
-                                    Las ayudas para la integración o los beneficios fiscales a los grupos menos representados son el mejor
+                                  <input type="radio" name="q7" onClick="saver(7,0,1,0.65)" id="31"> 
+                                  <label for="31">  Las cuotas no son necesarias, se debe ir hacia un sistema donde todos ganen lo mismo o lo que merecen segun su trabajo</label> <br>
+
+                                 <input type="radio" name="q7" onClick="saver(7,0,0.8,0.80)" id="32"> 
+                                  <label for="32">  las cuotas deberían ser obligatorias solo en algunos rubros estratégicos</label> <br>
+
+                                  <input type="radio" name="q7" onClick="saver(7,0,0.5,0.65)" id="33"> 
+                                  <label for="33">   Las cuotas obligatorias son el mejor instrumento para remediar las situaciones de discriminación histórica.</label> <br>
+
+                                  <input type="radio" name="q7" onClick="saver(7,0,0.2,0.65)" id="34"> 
+                                  <label for="34">   Las ayudas para la integración o los beneficios fiscales a los grupos menos representados son el mejor
                                     instrumento para paliar la discriminación.</label> <br>
-                                  <label><input type="radio" name="q7" onClick="saver(7,0,0,1.3)"> 
-                                    Cualquier tipo de imposición o beneficio basado en criterios de sexo, raza o grupo social, viola el principio
+
+                                  <input type="radio" name="q7" onClick="saver(7,0,0,1.3)" id="35"> 
+                                  <label for="35">   Cualquier tipo de imposición o beneficio basado en criterios de sexo, raza o grupo social, viola el principio
                                     de igualdad ante la ley, y no debe ser impuesto por el Estado.</label> <br>
                          
                               </div>  
@@ -158,33 +187,41 @@
                               <div class="quiz-box quiz-8">  
                                 <h2 class="quiz-question">8. immigración</h2> 
 
-                                  <label><input type="radio" name="q8" onClick="saver(8,0,1,0)"> 
-                                    la immigración no debe permitirse</label> <br>
-                                  <label><input type="radio" name="q8" onClick="saver(8,0,0.8,0)"> 
-                                    la immigración se debe limitarse según lo que necesite la nación</label> <br>
-                                  <label><input type="radio" name="q8" onClick="saver(8,0,0.5,0.25)"> 
-                                    la immigración debe limitarse para no dejar sin trabajo a los nativos</label> <br>
-                                  <label><input type="radio" name="q8" onClick="saver(8,0,0.2,0.65)"> 
-                                    El Estado debe regular la inmigración para permitir que los inmigrantes necesarios vengan de un modo legal.</label> <br>
-                                  <label><input type="radio" name="q8" onClick="saver(8,0,0,1.3)"> 
-                                    No debe haber diferencias de derechos en función del lugar de nacimiento o nacionalidad</label> <br>
+                                  <input type="radio" name="q8" onClick="saver(8,0,1,0)" id="36"> 
+                                  <label for="36">  la immigración no debe permitirse</label> <br>
+
+                                  <input type="radio" name="q8" onClick="saver(8,0,0.8,0)" id="37"> 
+                                    <label for="37">  la immigración se debe limitarse según lo que necesite la nación</label> <br>
+
+                                  <input type="radio" name="q8" onClick="saver(8,0,0.5,0.25)" id="38"> 
+                                    <label for="38">  la immigración debe limitarse para no dejar sin trabajo a los nativos</label> <br>
+
+                                  <input type="radio" name="q8" onClick="saver(8,0,0.2,0.65)" id="39"> 
+                                    <label for="39">  El Estado debe regular la inmigración para permitir que los inmigrantes necesarios vengan de un modo legal.</label> <br>
+
+                                  <input type="radio" name="q8" onClick="saver(8,0,0,1.3)" id="40"> 
+                                    <label for="40">  No debe haber diferencias de derechos en función del lugar de nacimiento o nacionalidad</label> <br>
                          
                               </div>  
 
                               <div class="quiz-box quiz-9">  
                                 <h2 class="quiz-question">9. nación</h2> 
 
-                                  <label><input type="radio" name="q9" onClick="saver(9,0,1,0)"> 
-                                    el estado debe promover la cultura local, y la identidad nacional propia</label> <br>
-                                  <label><input type="radio" name="q9" onClick="saver(9,0,0.8,0.65)"> 
-                                    El Estado debe proteger y/o promover la cultura y el idioma que son propios de su nación.</label> <br>
-                                  <label><input type="radio" name="q9" onClick="saver(9,0,0.5,1.3)"> 
-                                    la cultura local no es  mas ni menos importante que cualquier otra  </label> <br>
-                                  <label><input type="radio" name="q9" onClick="saver(9,0,0.2,0)"> 
-                                    se debe preservar la cultura y la tradición local, pero el estado no debe intervenir,
+                                  <input type="radio" name="q9" onClick="saver(9,0,1,0)" id="41"> 
+                                    <label for="41">  el estado debe promover la cultura local, y la identidad nacional propia</label> <br>
+
+                                 <input type="radio" name="q9" onClick="saver(9,0,0.8,0.65)" id="42"> 
+                                    <label for="42">  El Estado debe proteger y/o promover la cultura y el idioma que son propios de su nación.</label> <br>
+
+                                  <input type="radio" name="q9" onClick="saver(9,0,0.5,1.3)" id="43"> 
+                                    <label for="43">  la cultura local no es  mas ni menos importante que cualquier otra  </label> <br>
+
+                                  <input type="radio" name="q9" onClick="saver(9,0,0.2,0)" id="44"> 
+                                    <label for="44">  se debe preservar la cultura y la tradición local, pero el estado no debe intervenir,
                                   ya que posiblemente la utilice a conveniencia</label> <br>
-                                  <label><input type="radio" name="q9" onClick="saver(9,0,0,1.3)"> 
-                                    El Estado no debe intervenir en cuestiones tan personales como la identidad o la cultura.
+
+                                  <input type="radio" name="q9" onClick="saver(9,0,0,1.3)" id="45"> 
+                                    <label for="45">  El Estado no debe intervenir en cuestiones tan personales como la identidad o la cultura.
                                     Cada ciudadano debe tener la libertad de usar el idioma que considere.</label> <br>
                          
                               </div>  
@@ -192,34 +229,42 @@
                               <div class="quiz-box quiz-10">  
                                 <h2 class="quiz-question">10. educación</h2> 
 
-                                  <label><input type="radio" name="q10" onClick="saver(10,0,1,0)"> 
-                                    La educación tiene que ser estatal y debe estar orientada según los intereses del estado/nación</label> <br>
-                                  <label><input type="radio" name="q10" onClick="saver(10,1,0.8,0.65)"> 
-                                    el estado debe garantizar la educación a toda su población, ya sea de gestión privada o estatal</label> <br>
-                                  <label><input type="radio" name="q10" onClick="saver(10,2,0.5,0.65)"> 
-                                    el estado edbe financiar la educación y también regular cierto tipo de contenido.</label> <br>
-                                  <label><input type="radio" name="q10" onClick="saver(10,3,0.2,0.65)"> 
-                                    la educación debe ser totalmente privada sin injerencia estatal respecto a los contenidos, 
+                                  <input type="radio" name="q10" onClick="saver(10,0,1,0)" id="46"> 
+                                  <label for="46">  La educación tiene que ser estatal y debe estar orientada según los intereses del estado/nación</label> <br>
+
+                                  <input type="radio" name="q10" onClick="saver(10,1,0.8,0.65)" id="47"> 
+                                    <label for="47">  el estado debe garantizar la educación a toda su población, ya sea de gestión privada o estatal</label> <br>
+
+                                  <input type="radio" name="q10" onClick="saver(10,2,0.5,0.65)" id="48"> 
+                                    <label for="48">  el estado edbe financiar la educación y también regular cierto tipo de contenido.</label> <br>
+
+                                  <input type="radio" name="q10" onClick="saver(10,3,0.2,0.65)" id="49"> 
+                                    <label for="49">  la educación debe ser totalmente privada sin injerencia estatal respecto a los contenidos, 
                                     solo puede limitarse a financiarla en caso de que alguien no pueda permitirse pagarla</label> <br>
-                                  <label><input type="radio" name="q10" onClick="saver(10,1,0,1.3)"> 
-                                    la educación debe ser completamente privada y libre, el estado no debe meterse en esos asuntos.</label> <br>
+
+                                 <input type="radio" name="q10" onClick="saver(10,1,0,1.3)" id="50"> 
+                                    <label for="50">  la educación debe ser completamente privada y libre, el estado no debe meterse en esos asuntos.</label> <br>
                          
                               </div>  
 
                               <div class="quiz-box quiz-11">  
                                 <h2 class="quiz-question">11. medio ambiente</h2> 
 
-                                  <label><input type="radio" name="q11" onClick="saver(11,0,1,0.65)"> 
-                                    debe prohibirse la contaminación aunque implique un deterioro económico</label> <br>
-                                  <label><input type="radio" name="q11" onClick="saver(11,0.5,0.8,0.70)"> 
-                                    se debe restringir con limitacióne sestrictas la contaminación </label> <br>
-                                  <label><input type="radio" name="q11" onClick="saver(11,1,0.5,0.70)"> 
-                                    se debe promovor desde el estado las energías limpias </label> <br>
-                                  <label><input type="radio" name="q11" onClick="saver(11,1.5,0.2,0.70)"> 
-                                    Hay que promover las energías limpias mediante incentivos a aquellos que contaminen
+                                  <input type="radio" name="q11" onClick="saver(11,0,1,0.65)" id="51"> 
+                                  <label for="51">  debe prohibirse la contaminación aunque implique un deterioro económico</label> <br>
+
+                                  <input type="radio" name="q11" onClick="saver(11,0.5,0.8,0.70)"  id="52"> 
+                                    <label for="52">  se debe restringir con limitacióne sestrictas la contaminación </label> <br>
+
+                                  <input type="radio" name="q11" onClick="saver(11,1,0.5,0.70)" id="53"> 
+                                    <label for="53">  se debe promovor desde el estado las energías limpias </label> <br>
+
+                                 <input type="radio" name="q11" onClick="saver(11,1.5,0.2,0.70)" id="54"> 
+                                    <label for="54"> Hay que promover las energías limpias mediante incentivos a aquellos que contaminen
                                      menos y cargas a los que contaminan más.</label> <br>
-                                  <label><input type="radio" name="q11" onClick="saver(11,2,0,0)"> 
-                                    Se contaminaría menos si se estableciesen responsabilidades claras
+
+                                  <input type="radio" name="q11" onClick="saver(11,2,0,0)" id="55"> 
+                                    <label for="55">   Se contaminaría menos si se estableciesen responsabilidades claras
                                      y derechos de propiedad bien definidos con respecto a la contaminación.</label> <br>
                          
                               </div>  
@@ -227,52 +272,56 @@
                               <div class="quiz-box quiz-12">  
                                 <h2 class="quiz-question">12. globalización</h2> 
 
-                                  <label><input type="radio" name="q12" onClick="saver(12,0,1,0)"> 
-                                    se debe limitar la entrada de productos extranjeros para favorecer a los nacionales</label> <br>
-                                  <label><input type="radio" name="q12" onClick="saver(12,0.5,0.8,0.35)"> 
-                                    se debe restringir el producto extranjero porque se produce con mano de obra barata y no se puede competir</label> <br>
-                                  <label><input type="radio" name="q12" onClick="saver(12,1,0.5,0)"> 
-                                    se debe limitar la importación de productos extranjeros porque perjudican la cultura local</label> <br>
-                                  <label><input type="radio" name="q12" onClick="saver(12,1.5,0.2,0.35)"> 
-                                    el estado debe interferir lo menos posible en el comercio internacional con aranceles bajos</label> <br>
-                                  <label><input type="radio" name="q12" onClick="saver(12,2,0,0)"> 
-                                    El estado no debe entrometerse en el comercio internacional, tanto de forma regulatoria o impositiva</label> <br>
+                                  <input type="radio" name="q12" onClick="saver(12,0,1,0)" id="56"> 
+                                  <label for="56">  se debe limitar la entrada de productos extranjeros para favorecer a los nacionales</label> <br>
+
+                                   <input type="radio" name="q12" onClick="saver(12,0.5,0.8,0.35)" id="57"> 
+                                    <label for="57">  se debe restringir el producto extranjero porque se produce con mano de obra barata y no se puede competir</label> <br>
+
+                                  <input type="radio" name="q12" onClick="saver(12,1,0.5,0)" id="58"> 
+                                    <label for="58">  se debe limitar la importación de productos extranjeros porque perjudican la cultura local</label> <br>
+
+                                  <input type="radio" name="q12" onClick="saver(12,1.5,0.2,0.35)" id="59"> 
+                                    <label for="59">  el estado debe interferir lo menos posible en el comercio internacional con aranceles bajos</label> <br>
+
+                                  <input type="radio" name="q12" onClick="saver(12,2,0,0)" id="60"> 
+                                    <label for="60">  El estado no debe entrometerse en el comercio internacional, tanto de forma regulatoria o impositiva</label> <br>
                          
                               </div>  
 
                               <div class="quiz-box quiz-13">  
                                 <h2 class="quiz-question">13. impuestos</h2> 
 
-                                  <label><input type="radio" name="q13" onClick="saver(13,0,1,0.65)"> 
-                                    los ricos deberían pagar mas impuestos para aumentar las prestaciónes del estado</label> <br>
-                                  <label><input type="radio" name="q13" onClick="saver(13,0.5,0.8,0.30)"> 
-                                    los impuestos deberían subir si es necesario</label> <br>
-                                  <label><input type="radio" name="q13" onClick="saver(13,1,0.5,0.35)"> 
-                                    los impuestos no deberían subir, deben ser los justos y suficientes para mantener
+                                  <input type="radio" name="q13" onClick="saver(13,0,1,0.65)" id="61"> 
+                                  <label for="61">  los ricos deberían pagar mas impuestos para aumentar las prestaciónes del estado</label> <br>
+                                  <input type="radio" name="q13" onClick="saver(13,0.5,0.8,0.30)" id="62"> 
+                                    <label for="62">  los impuestos deberían subir si es necesario</label> <br>
+                                 <input type="radio" name="q13" onClick="saver(13,1,0.5,0.35)" id="63"> 
+                                    <label for="63">  los impuestos no deberían subir, deben ser los justos y suficientes para mantener
                                      el funcionamento del estado</label> <br>
-                                  <label><input type="radio" name="q13" onClick="saver(13,1.5,0.2,0)"> 
-                                    Los impuestos deberían reducirse, aunque para ello haya que recortar 
+                                  <input type="radio" name="q13" onClick="saver(13,1.5,0.2,0)" id="64"> 
+                                    <label for="64"> Los impuestos deberían reducirse, aunque para ello haya que recortar 
                                     algunas prestaciones y servicios del Estado.</label> <br>
-                                  <label><input type="radio" name="q13" onClick="saver(13,2,0,0.)"> 
-                                    los impuestos no deberían existir, son un robo</label> <br>
+                                  <input type="radio" name="q13" onClick="saver(13,2,0,0.)" id="65"> 
+                                    <label for="65">  los impuestos no deberían existir, son un robo</label> <br>
                          
                               </div>  
 
                               <div class="quiz-box quiz-14">  
                                 <h2 class="quiz-question">14. pensiones</h2> 
 
-                                  <label><input type="radio" name="q14" onClick="saver(14,0,1,0.80)"> 
-                                    Las pensiones de jubilación deben ser gestionadas por el Estado con un 
+                                  <input type="radio" name="q14" onClick="saver(14,0,1,0.80)" id="66"> 
+                                  <label for="66">  Las pensiones de jubilación deben ser gestionadas por el Estado con un 
                                     sistema público de contribuciones obligatorias (Seguridad Social).</label> <br>
-                                  <label><input type="radio" name="q14" onClick="saver(14,0.5,0.8,0.35)"> 
-                                    las pensiones deben ser de gestión completamente estatal y se debe brindar
+                                  <input type="radio" name="q14" onClick="saver(14,0.5,0.8,0.35)" id="67"> 
+                                    <label for="67">  las pensiones deben ser de gestión completamente estatal y se debe brindar
                                      una jubilación sin aportes a aaqquellas personas que no pudieron durante su vida laboral</label> <br>
-                                  <label><input type="radio" name="q14" onClick="saver(14,1,0.5,0.35)"> 
-                                    las pensiones deberían ser mixtas, privadas con cierta ayuda estatal</label> <br>
-                                  <label><input type="radio" name="q14" onClick="saver(14,1.5,0.2,0)"> 
-                                    las pensiones deben del obligatorias pero de gestión privada</label> <br>
-                                  <label><input type="radio" name="q14" onClick="saver(14,2,0,0.65)"> 
-                                    Las pensiones de jubilación son un asunto de ahorro y planificación individual. <br>
+                                  <input type="radio" name="q14" onClick="saver(14,1,0.5,0.35)" id="68"> 
+                                    <label for="68">  las pensiones deberían ser mixtas, privadas con cierta ayuda estatal</label> <br>
+                                  <input type="radio" name="q14" onClick="saver(14,1.5,0.2,0)" id="69"> 
+                                    <label for="69">  las pensiones deben del obligatorias pero de gestión privada</label> <br>
+                                 <input type="radio" name="q14" onClick="saver(14,2,0,0.65)" id="70"> 
+                                    <label for="70">  Las pensiones de jubilación son un asunto de ahorro y planificación individual. <br>
                                     El Estado no debe exigir contribuciones obligatorias a un sistema público.</label> <br>
                          
                               </div>  
@@ -280,41 +329,41 @@
                               <div class="quiz-box quiz-15">  
                                 <h2 class="quiz-question">15. solidaridad</h2> 
 
-                                  <label><input type="radio" name="q15" onClick="saver(15,0,1,0.70)"> 
-                                    El estado puede y debe encargarse de eliminar y reducir la pobreza y la desigualdad</label> <br>
-                                  <label><input type="radio" name="q15" onClick="saver(15,0.5,0.8,0.35)"> 
-                                    El estado debe gestionar asistencia a los mas necesitados independientemente de ls
+                                  <input type="radio" name="q15" onClick="saver(15,0,1,0.70)" id="71"> 
+                                  <label for="71">  El estado puede y debe encargarse de eliminar y reducir la pobreza y la desigualdad</label> <br>
+                                  <input type="radio" name="q15" onClick="saver(15,0.5,0.8,0.35)" id="72"> 
+                                    <label for="72">  El estado debe gestionar asistencia a los mas necesitados independientemente de ls
                                      ayudas privadas</label> <br>
-                                  <label><input type="radio" name="q15" onClick="saver(15,1,0.5,0.35)"> 
-                                    La solidaridad debe estar principalmente en manos privadas, exceptuandoo algunoss 
+                                  <input type="radio" name="q15" onClick="saver(15,1,0.5,0.35)" id="73"> 
+                                    <label for="73">  La solidaridad debe estar principalmente en manos privadas, exceptuandoo algunoss 
                                     casos particulares</label> <br>
-                                  <label><input type="radio" name="q15" onClick="saver(15,1.5,0.2,0)"> 
-                                    Las instituciones privadas de caridad deben ser las principales canalizadoras 
+                                  <input type="radio" name="q15" onClick="saver(15,1.5,0.2,0)" id="74"> 
+                                    <label for="74"> Las instituciones privadas de caridad deben ser las principales canalizadoras 
                                     de la solidaridad de la sociedad.</label> <br>
-                                  <label><input type="radio" name="q15" onClick="saver(15,2,0,0)"> 
-                                    La solidaridad debe nacer de la sociedad, el estado no debe meterse, ya que dejaría de ser solidaridad.</label> <br>
+                                  <input type="radio" name="q15" onClick="saver(15,2,0,0)" id="75"> 
+                                    <label for="75">  La solidaridad debe nacer de la sociedad, el estado no debe meterse, ya que dejaría de ser solidaridad.</label> <br>
                          
                               </div>  
 
                               <div class="quiz-box quiz-16">  
                                 <h2 class="quiz-question">16. permisos</h2> 
 
-                                  <label><input type="radio" name="q16" onClick="saver(16,0,1,0)"> 
-                                    Los sectores profesionales tienen que estar regulados por las leyes.  <br>
+                                  <input type="radio" name="q16" onClick="saver(16,0,1,0)" id="76"> 
+                                  <label for="76">  Los sectores profesionales tienen que estar regulados por las leyes.  <br>
                                     El ejercicio de las profesiones cualificadas debe requerir de las oportunas licencias <br>
                                      y permisos otorgadas en cada caso por el órgano competente del Estado.</label> <br>
-                                  <label><input type="radio" name="q16" onClick="saver(16,0.5,0.8,0)"> 
-                                   El estado debe tener un rol preponderante a la hora de otorgan certificados, licencias y permisos <br>
+                                  <input type="radio" name="q16" onClick="saver(16,0.5,0.8,0)" id="77"> 
+                                    <label for="77"> El estado debe tener un rol preponderante a la hora de otorgan certificados, licencias y permisos <br>
                                    pero eso no quita que muchos sectore sprofesionales puedan regularse de forma independiente </label> <br>
-                                  <label><input type="radio" name="q16" onClick="saver(16,1,0.5,0)"> 
-                                    Los sectores profesionales deben estar regulados por organismos independientes,
+                                  <input type="radio" name="q16" onClick="saver(16,1,0.5,0)" id="78"> 
+                                    <label for="78">  Los sectores profesionales deben estar regulados por organismos independientes,
                                      como los colegios profesionales. Los profesionales cualificados deben colegiarse en ellos, 
                                      ya que su supervisión garantiza la calidad de sus servicios.</label> <br>
-                                  <label><input type="radio" name="q16" onClick="saver(16,1.5,0.2,0.70)"> 
-                                    el estado no debería encargarse de la mayor cantidad de regulaciónes respecto a <br>
+                                  <input type="radio" name="q16" onClick="saver(16,1.5,0.2,0.70)" id="79"> 
+                                    <label for="79">  el estado no debería encargarse de la mayor cantidad de regulaciónes respecto a <br>
                                     la cerficicación de un trabajo, excepto en casos muy puntuales ej: médicos </label> <br>
-                                  <label><input type="radio" name="q16" onClick="saver(16,2,0,0.35)"> 
-                                    Las licencias, permisos y colegios profesionales son trabas innecesarias.
+                                  <input type="radio" name="q16" onClick="saver(16,2,0,0.35)" id="80"> 
+                                    <label for="80">  Las licencias, permisos y colegios profesionales son trabas innecesarias.
                                      El ejercicio de cualquier profesión debe ser libre para cualquier persona cualificada.</label> <br>
                          
                               </div>  
@@ -322,18 +371,18 @@
                               <div class="quiz-box quiz-17">  
                                 <h2 class="quiz-question">17 sindicatos</h2> 
 
-                                  <label><input type="radio" name="q17" onClick="saver(17,0,1,0.35)"> 
-                                    los sindicatos no son necesarios si el estado se ocupa de todos los
+                                  <input type="radio" name="q17" onClick="saver(17,0,1,0.35)" id="81"> 
+                                  <label for="81">  los sindicatos no son necesarios si el estado se ocupa de todos los
                                      problemas de los trabajardores eficientemente </label> <br>
-                                  <label><input type="radio" name="q17" onClick="saver(17,0.5,0.8,0.65)"> 
-                                    el estado debe financiar a los sindicatos y otorgarles funciones especiales</label> <br>
-                                  <label><input type="radio" name="q17" onClick="saver(17,1,0.5,0.25)"> 
-                                  los sindicatos ehmm..</label> <br>
-                                  <label><input type="radio" name="q17" onClick="saver(17,1.5,0.2,0.30)"> 
-                                    los sindicatos deben tener funciones especiales en la legislación laboral 
+                                  <input type="radio" name="q17" onClick="saver(17,0.5,0.8,0.65)" id="82"> 
+                                    <label for="82"> el estado debe financiar a los sindicatos y otorgarles funciones especiales</label> <br>
+                                  <input type="radio" name="q17" onClick="saver(17,1,0.5,0.25)" id="83"> 
+                                    <label for="83"> los sindicatos ehmm..</label> <br>
+                                  <input type="radio" name="q17" onClick="saver(17,1.5,0.2,0.30)" id="84"> 
+                                    <label for="84">   los sindicatos deben tener funciones especiales en la legislación laboral 
                                     pero no deben ser financiados por el estado</label> <br>
-                                  <label><input type="radio" name="q17" onClick="saver(17,2,0,0)"> 
-                                    Los sindicatos deben regirse por las normas aplicables a cualquier otra asociación,
+                                  <input type="radio" name="q17" onClick="saver(17,2,0,0)" id="85"> 
+                                    <label for="85">  Los sindicatos deben regirse por las normas aplicables a cualquier otra asociación,
                                      y no recibir financiación pública o atribuírseles funciones especiales.</label> <br>
                          
                               </div>  
@@ -341,19 +390,19 @@
                               <div class="quiz-box quiz-18">  
                                 <h2 class="quiz-question">18 sanidad</h2> 
 
-                                  <label><input type="radio" name="q18" onClick="saver(18,0,1,0.35)"> 
-                                    el estado debe tener el monopolio de la sanidad debido a que no se deben hacer negocios con ella</label> <br>
-                                  <label><input type="radio" name="q18" onClick="saver(18,0.5,0.8,0.30)"> 
-                                    El Estado debe gestionar centros médicos de carácter público, y financiarlos mediante
+                                  <input type="radio" name="q18" onClick="saver(18,0,1,0.35)" id="86"> 
+                                  <label for="86">  el estado debe tener el monopolio de la sanidad debido a que no se deben hacer negocios con ella</label> <br>
+                                  <input type="radio" name="q18" onClick="saver(18,0.5,0.8,0.30)" id="87"> 
+                                    <label for="87">  El Estado debe gestionar centros médicos de carácter público, y financiarlos mediante
                                      contribuciones a un seguro médico público de carácter obligatorio (Seguridad Social).</label> <br>
-                                  <label><input type="radio" name="q18" onClick="saver(18,1,0.5,0.65)"> 
-                                    El Estado debe garantizar el acceso universal a la sanidad mediante centros con algún
+                                  <input type="radio" name="q18" onClick="saver(18,1,0.5,0.65)" id="88"> 
+                                    <label for="88">  El Estado debe garantizar el acceso universal a la sanidad mediante centros con algún
                                      tipo de financiación pública, sean gestionados o no por el Estado.</label> <br>
-                                  <label><input type="radio" name="q18" onClick="saver(18,1.5,0.2,0.55)"> 
-                                    no debe haber sanidad de gestión p+úbliuca, pero el estado puede 
+                                  <input type="radio" name="q18" onClick="saver(18,1.5,0.2,0.55)" id="89"> 
+                                    <label for="89">  no debe haber sanidad de gestión p+úbliuca, pero el estado puede 
                                     financiarle los tratamientos y las medicinas a quienes no puedan pagarlos</label> <br>
-                                  <label><input type="radio" name="q18" onClick="saver(18,2,0,0)"> 
-                                    Gestionar centros médicos no debe ser una función del Estado. <br>
+                                  <input type="radio" name="q18" onClick="saver(18,2,0,0)" id="90"> 
+                                    <label for="90">  Gestionar centros médicos no debe ser una función del Estado. <br>
                                     Los centros médicos deben ser privados, y los ciudadanos ser  <br>
                                     libres de contratar el seguro médico que prefieran.</label> <br>
                          
@@ -362,30 +411,35 @@
                               <div class="quiz-box quiz-19">  
                                 <h2 class="quiz-question">19 controles de precios, grandes empresas y mercado laboral ¿?¿?</h2> 
 
-                                  <label><input type="radio" name="q19" onClick="saver(19,0,1,0)"> eeeee.</label> <br>
-                                  <label><input type="radio" name="q19" onClick="saver(19,0.5,0.8,0)"> rrrrr.</label> <br>
-                                  <label><input type="radio" name="q19" onClick="saver(19,1,0.5,0)"> rrrrrr.</label> <br>
-                                  <label><input type="radio" name="q19" onClick="saver(19,1.5,0.2,0)"> ggggg.</label> <br>
-                                  <label><input type="radio" name="q19" onClick="saver(19,2,0,0)"> ggggggg.</label> <br>
+                                  <input type="radio" name="q19" onClick="saver(19,0,1,0)" id="91">
+                                    <label for="91"> eeeee.</label> <br>
+                                  <input type="radio" name="q19" onClick="saver(19,0.5,0.8,0)" id="92"> 
+                                  <label for="92"> rrrrr.</label> <br>
+                                  <input type="radio" name="q19" onClick="saver(19,1,0.5,0)" id="93">
+                                    <label for="93">  rrrrrr.</label> <br>
+                                  <input type="radio" name="q19" onClick="saver(19,1.5,0.2,0)" id="94">
+                                    <label for="94">  ggggg.</label> <br>
+                                  <input type="radio" name="q19" onClick="saver(19,2,0,0)" id="95"> 
+                                    <label for="95"> ggggggg.</label> <br>
                          
                               </div> 
                               
                               <div class="quiz-box quiz-20">  
                                 <h2 class="quiz-question">20 bancos</h2> 
 
-                                  <label><input type="radio" name="q20" onClick="saver(20,0,1,0)"> 
-                                    tanto el banco central como el sistema bancario deben ser publicos y atender a las necesidades sociales </label> <br>
-                                  <label><input type="radio" name="q20" onClick="saver(20,0.5,0.8,0)"> 
-                                    el banco central debe tener una función especial a la hora de regular 
+                                  <input type="radio" name="q20" onClick="saver(20,0,1,0)" id="96"> 
+                                   <label for="96"> tanto el banco central como el sistema bancario deben ser publicos y atender a las necesidades sociales </label> <br>
+                                  <input type="radio" name="q20" onClick="saver(20,0.5,0.8,0)" id="97"> 
+                                  <label for="97"> el banco central debe tener una función especial a la hora de regular 
                                     la economía mediante tipos de interés ty emisión monetaria</label> <br>
-                                  <label><input type="radio" name="q20" onClick="saver(20,1,0.5,0)"> 
-                                    El Banco Central debería reducir sus competencias y ser mas independiente, 
+                                    <input type="radio" name="q20" onClick="saver(20,1,0.5,0)" id="98"> 
+                                    <label for="98"> El Banco Central debería reducir sus competencias y ser mas independiente, 
                                     y los bancos comerciales ser todos de carácter privado.</label> <br>
-                                  <label><input type="radio" name="q20" onClick="saver(20,1.5,0.2,0)"> 
-                                    El banco central debería tener un tipo de cambio fijo (convertibilidad)
+                                    <input type="radio" name="q20" onClick="saver(20,1.5,0.2,0)" id="99"> 
+                                    <label for="99"> El banco central debería tener un tipo de cambio fijo (convertibilidad)
                                      o ser sumamente cuidadoso a la hora de realizar política monetaria</label> <br>
-                                  <label><input type="radio" name="q20" onClick="saver(20,2,0,0)"> 
-                                    El banco central no debería existir, el dinero es una institución 
+                                    <input type="radio" name="q20" onClick="saver(20,2,0,0)" id="100"> 
+                                    <label for="100"> El banco central no debería existir, el dinero es una institución 
                                     privado y debería garantizarse la libertad monetaria.</label> <br>
                          
                               </div>  
@@ -434,9 +488,7 @@
                       </div>
                  
                   </div>  
-                    
-                
-                  
+                 
 
             </section>
 
