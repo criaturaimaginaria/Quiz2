@@ -10,17 +10,24 @@ const prog = document.querySelector(".prog")
 
 // this function gives each of the answers 0 points
 function populate() { 
+  econPoints=0
+  poliPoints=0
+  socialPoints=0
   for (let i = 0; i < 20; i++) { 
-      Quest[i] = 0; 
+      Quest[i] = {econPoints,poliPoints,socialPoints}
+      
     } 
+console.log(Quest)
 } 
 
-
+let econPoints=0
+let poliPoints=0
+let socialPoints=0
 // each answer points into the array
 function saver(q, econPoints, poliPoints, socialPoints) { 
     q = q - 1; 
     Quest [q] = {econPoints,  poliPoints, socialPoints }
-    // console.log(Quest)
+    console.log(Quest)
   } 
   
 

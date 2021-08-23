@@ -2,7 +2,7 @@ let conservador =  {
    
         0: {
           name : "Comunismo cristiano",
-          description: "El comunismo cristiano es una forma de comunismo religioso basado en el cristianismo. <br> Es una teoría teológica y política basada en las enseñanzas de Jesucristo que llevaría a los cristianos a apoyar el comunismo como sistema social ideal",
+          description: "El comunismo cristiano es una forma de comunismo religioso basado en el cristianismo. Es una teoría teológica y política basada en las enseñanzas de Jesucristo que llevaría a los cristianos a apoyar el comunismo como sistema social ideal",
           symbol: './symbols/comunismoCristiano.png'
         },
 
