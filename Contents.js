@@ -119,7 +119,7 @@ progresista =  {
    
      
   0: {
-    name : "Marxismo clásico",
+    name : "Marxismo leninismo",
     description: "El marxismo comienza con Marx y bla bla",
     symbol: './symbols/marxismoClasico.png'
   },
