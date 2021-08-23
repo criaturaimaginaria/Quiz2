@@ -97,3 +97,16 @@
     /* background-color: rgb(0, 68, 255); */
 }
 /* -------------------------------- */
+
+
+/* responsive /////////////////////////////////////// */
+
+@media only screen and (max-width: 415px ){
+  
+    .arrows{
+     
+        margin-left: 0em;
+     
+    }
+
+}
