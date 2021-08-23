@@ -5,16 +5,16 @@ input[type=radio] {
 label { 
 	cursor: pointer;
 	position: relative;
-  
   transition: 0.1s ease-in;
 }
+
 label:hover {
   background-color: rgba(214, 214, 214, 0.157);
     /* border-bottom: 1px solid rgb(19, 19, 19); */
 }
 
 label:before {
-  border-radius: 10px;
+  border-radius: 15px;
     display: inline-block;
 	content: "";
 	width: 1em;
@@ -25,19 +25,17 @@ label:before {
  
   transition: 0.1s ease-in;
   background: transparent url("big-circle.svg") no-repeat center; 
-  border: 2px solid #b9b9b9;
+  border: 2px solid #00608d;
 }
 
 
 
 input[type=radio]:checked + label:before {
-  /* margin-left: 0.4em; */
- 
+  /* margin-left: 0.1em; */
 
     /* content: "⬤";
   color: rgb(255, 0, 0);  */
     background: transparent url("smal-circle.svg") no-repeat center; 
-    
     
 }
 

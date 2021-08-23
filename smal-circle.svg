@@ -4,9 +4,9 @@
     <title>Oval</title>
     <desc>Created with Sketch.</desc>
     <g id="UX-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="9-Nieuws" transform="translate(-127.000000, -673.000000)">
+        <g id="9-Nieuws" transform="translate(-126.8, -673.2)">
             <circle id="Oval" stroke="#3A325F" stroke-width="2" cx="134" cy="680" r="13"></circle>
-            <circle id="Oval" fill="#3A325F" cx="134" cy="680" r="7"></circle>
+            <circle id="Oval" fill="#5804B6" cx="134" cy="680" r="7"></circle>
         </g>
     </g>
 </svg>
