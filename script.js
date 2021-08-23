@@ -17,17 +17,15 @@ function populate() {
       Quest[i] = {econPoints,poliPoints,socialPoints}
       
     } 
-console.log(Quest)
+// console.log(Quest)
 } 
 
-let econPoints=0
-let poliPoints=0
-let socialPoints=0
+
 // each answer points into the array
 function saver(q, econPoints, poliPoints, socialPoints) { 
     q = q - 1; 
     Quest [q] = {econPoints,  poliPoints, socialPoints }
-    console.log(Quest)
+    // console.log(Quest)
   } 
   
 
