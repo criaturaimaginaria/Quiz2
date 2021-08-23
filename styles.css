@@ -28,6 +28,22 @@ section{
     background-color: rgb(151, 151, 151);
 }
 
+.title-description{
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+.title-description p{
+    font-size: 1.2em;
+}
+
+h1{
+    display: inline;
+    font-size: 2em;
+    border-bottom: 1px solid black;
+}
+
+
 form{ 
 
     font-size: 1.3rem;
