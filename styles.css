@@ -123,7 +123,8 @@ footer p {
 .accordion{
    
     background-color: #1d8d7100;
-    color: #fff;
+    /* color: #fff; */
+    color: rgb(0, 0, 0);
     cursor: pointer;
     padding: 0.5em;
     width: 70vw;
