@@ -106,10 +106,32 @@
       font-size: 8px;
   }
     .arrows{
-        margin-left: 0.8em;
-       
+        background-image: url(arrows3.png);
+        height: 48rem;
+        width: 42rem;
+        margin-top: 5em;
+        margin-left: 1em;
+    }
+    
+    /* 1 */
+    .chart2{
+        margin-top: -8em;
+        margin-bottom: 0em;  
+        margin-left: 10em;  
+    }
+    /* 2 */
+    .chart{
+        margin-top: -8em;
+        margin-bottom: -19.3em;
+        margin-left: 10em;  
     }
 
-
+    /* 3 */
+    .chart3{
+         margin-left: 10em;
+        margin-top: 15em;
+        width: 21em;
+        height: 21em; 
+    }
 
 }
