@@ -125,7 +125,7 @@ footer p {
     background-color: #1d8d7100;
     color: #fff;
     cursor: pointer;
-    /* padding: 18px; */
+    padding: 0.5em;
     width: 70vw;
     text-align: left;
     border: 1px solid rgb(53, 53, 53);
@@ -143,23 +143,6 @@ footer p {
     max-height:0;
    transition: max-height 0.5s ease-out;
    width: 70vw;
-}
-
-p{
-    font: 16px lato, sans-serif;
-}
-
-
-
-.accordion::after{
-    content: '\02795';
-    font-size: 15px;
-    float: right;
-    margin-left: 5px;
-}
-
-.active::after{
-    content: '\02796';
 }
 
 
