@@ -31,7 +31,7 @@ function saver(q, econPoints, poliPoints, socialPoints) {
 
 
 // this function uses the total calculated score to figure out the position of the point
-function analyzer (myScore, VeScore, socScore) { 
+function pointPosition (myScore, VeScore, socScore) { 
  
     // if for social score conservative 
     if(socScore <= 6.6){
@@ -218,7 +218,7 @@ function total() {
         } 
 
         // console.log(VeScore, VeScore, socScore);
-      analyzer(myScore, VeScore, socScore);   
+        pointPosition(myScore, VeScore, socScore);   
       contentNumber(myScore, VeScore, socScore);     
   
   } 
@@ -226,16 +226,65 @@ function total() {
 //display the data from the file contents.js
   function contentDisplay(socArrow) { 
 
-    document.getElementById("result").innerHTML = `<br> <B> ${(socArrow.name)} </B>  <br> 
-    ${(socArrow.description)}  <br>  <img src="${(socArrow.symbol)}" class="symbol" > `
+    document.getElementById("result").innerHTML = `<br>  <B> ${(socArrow.name)} </B>  <br> 
+   <p> ${(socArrow.description)} </p> <br>  <img src="${(socArrow.symbol)}" class="symbol" > `
 
     } 
 
+    let acordion = document.querySelector(".quiz-question");
+
+
+
+// ---------------------------------------------------
+let acc = document.getElementsByClassName("accordion");
+
+for (let i = 0; i < acc.length; i++){
+    acc[i].addEventListener('click', function(){
+      //  console.log(acc)
+      //Close other tabs
+        for(var j = 0; j < acc.length; j++) {
+      acc[j].nextElementSibling.style.maxHeight = null;
+      acc[j].classList.remove('active');
+          
+    }
+  
+        this.classList.toggle("active");
+        
+        /*Toggle between hiding and showing*/
+        let panel = this.nextElementSibling;
+        if(panel.style.maxHeight){
+           panel.style.maxHeight = null;
+        } else{
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+        }
+      
+        
+    });
+}
 
 
 
 
 
+
+
+
+// acordion.addEventListener("click",function dropdown() { 
+//   let hola = document.querySelector('.hola')
+//   if(hola.style.display === "none"){
+//     hola.style.display = "inline" 
+//   }
+//   else if(hola.style.display === "inline" ){
+//     hola.style.display = "none" 
+//   }
+//   // document.querySelector('.hola').style.cssText = 'transition: 1s ;display:none; '  
+// } )
+
+
+
+/*
+how to  close the opened Tab when I click\ again on it (when he open)
+*/
 // ------------------------pruebas--------------------
 // document.getElementById("result").innerHTML = `<br>  <B>${(progresista[8].name)} </B> <br> 
 // ${(progresista[8].description)}  <br>  <img src="${(progresista[8].symbol)}" class="symbol" > `
