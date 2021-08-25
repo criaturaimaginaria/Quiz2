@@ -13,7 +13,7 @@ function populate() {
   econPoints=0
   poliPoints=0
   socialPoints=0
-  for (let i = 0; i < 20; i++) { 
+  for (let i = 0; i < 25; i++) { 
       Quest[i] = {econPoints,poliPoints,socialPoints}
       
     } 
@@ -23,9 +23,9 @@ function populate() {
 
 // each answer points into the array
 function saver(q, econPoints, poliPoints, socialPoints) { 
-    q = q - 1; 
+    q = q-1 ; 
     Quest [q] = {econPoints,  poliPoints, socialPoints }
-    // console.log(Quest)
+    console.log(Quest)
   } 
   
 
@@ -211,13 +211,13 @@ function total() {
       politicalPoints = (Quest.map( quest => quest.poliPoints));
       socialPoints = (Quest.map( quest => quest.socialPoints));
 
-      for (let i = 0; i < 20; i++) {
+      for (let i = 0; i < 25; i++) {
            myScore = myScore + questPoints[i];
            VeScore = VeScore + politicalPoints[i];
            socScore = socScore + socialPoints[i];
         } 
 
-        // console.log(VeScore, VeScore, socScore);
+        console.log(VeScore, VeScore, socScore);
         pointPosition(myScore, VeScore, socScore);   
       contentNumber(myScore, VeScore, socScore);     
   
