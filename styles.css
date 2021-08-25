@@ -157,21 +157,9 @@ footer p {
     font-size: 8px;
 }
 
-.wrapper-container{
-    text-align:inherit;
-     width: 80vw;
-     
- }
-
- section{
-    background-color: rgb(204, 204, 204);
-    width: 100vw;
-    margin-top: 0vw;
-}
-
 .title-description{
     margin-top: 1.8em;
-    margin-left: 1em;
+    margin-left: 2em;
     width: 95vw;
 }
 
@@ -180,7 +168,7 @@ h1{
 }
 
 .title-description p{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 /* h2{
@@ -190,10 +178,41 @@ h1{
         font-size: 1.8em;
   
  } */
-
- h3{
-     font-size: 1.5em;
+section{
+    background-color: rgb(204, 204, 204);
+    width: 100vw;
+    margin-top: 0vw;
+    
+}
+.wrapper-container{
+    text-align:inherit;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
  }
+
+ .accordion{
+    width: 90vw;
+}
+
+.panel{
+    width: 90vw;
+}
+
+ .panel label{
+    font-size: 2.3em;
+}
+
+.btn{
+    font-size: 4.5em;
+}
+.btn:hover{
+    font-size: 4.5em;
+}
+
+h3{
+    font-size: 2em;
+}
 
  section B{
     font-size: 1.5em;
