@@ -6,13 +6,13 @@
 *{
     padding: 0px;
     margin: 0px; 
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 body{
     background-color: rgb(149, 149, 149);
     
-    font-size: 16px;
+    
 }
 
 .flex-container{
