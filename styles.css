@@ -6,6 +6,7 @@
 *{
     padding: 0px;
     margin: 0px; 
+    font-size: 16px;
 }
 
 body{
@@ -25,7 +26,9 @@ body{
 }
 
 
-header{font-family: "LibreBaskerville";
+header{
+    font-size: 16px;
+    font-family: "LibreBaskerville";
     background-color: rgba(49, 49, 49, 0.972);
     height: 12em;
     color: rgb(223, 226, 209);
@@ -177,6 +180,10 @@ footer p {
 
 @media only screen and (max-width: 415px ){
 *{
+    font-size: 8px;
+}
+
+header{
     font-size: 8px;
 }
 
