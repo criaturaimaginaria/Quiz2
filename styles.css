@@ -11,7 +11,7 @@
 *{
     padding: 0px;
     margin: 0px; 
-    /* font-size: 16px; */
+    font-size: 16px;
 }
 
 body{
@@ -49,7 +49,7 @@ header p {
 
 
 section{
-    
+    font-size: 16px;
     background-color: rgb(204, 204, 204);
     width: 88vw;
     margin-top: 2vw;
@@ -103,7 +103,7 @@ h1{
 
 .btn{
     margin: 0.5em 0em 0.5em 0em;
-    font-size: 2em;
+    font-size: 2.5em;
     padding:0.1em;
     color: rgb(0, 0, 0);
     background-color: rgb(226, 226, 226);
@@ -112,13 +112,25 @@ h1{
     transition: 0.1s;
 }
 .btn:hover{
-    font-size: 2em;
+    font-size: 2.5em;
     padding:0.1em;
     color: rgb(24, 24, 24);
     background-color: rgb(246, 246, 246);
     border-color: rgb(75, 165, 130);
     border-bottom: 3px solid rgb(0, 5, 15);
 }
+
+h3{
+    font-size: 1.2em;
+}
+
+.result-box B {
+    font-size: 1.3em;
+}
+.result-box p {
+    font-size: 1.3em;
+}
+
 
 .symbol{
     width: 9em;
@@ -164,14 +176,14 @@ footer p {
     text-align: left;
     border: 1px solid rgb(53, 53, 53);
     transition: all 0.5s;
-    font-size: 1.4em;
+    font-size: 1.2em;
     outline: none;
 }
 .active, .accordion:hover{
     background-color: #888888;
 }
 .panel{
-   font-size: 1.3em;
+   font-size: 16px;
     background-color: #fff;
     overflow: hidden;
     max-height:0;
@@ -179,6 +191,9 @@ footer p {
    width: 70vw;
 }
 
+.panel label{
+    font-size: 1.5em;
+}
 
 
 
