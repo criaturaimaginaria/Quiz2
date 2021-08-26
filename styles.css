@@ -12,7 +12,7 @@
 body{
     background-color: rgb(149, 149, 149);
     
-   
+    font-size: 16px;
 }
 
 .flex-container{
@@ -27,7 +27,7 @@ body{
 
 
 header{
-    font-size: 16px;
+    
     font-family: "LibreBaskerville";
     background-color: rgba(49, 49, 49, 0.972);
     height: 12em;
