@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url("fontFamily/LibreBaskerville-Italic.ttf");
+}
+
 *{
     padding: 0px;
     margin: 0px; 
@@ -5,6 +10,8 @@
 
 body{
     background-color: rgb(149, 149, 149);
+    
+   
 }
 
 .flex-container{
@@ -18,16 +25,17 @@ body{
 }
 
 
-header{
-    background-color: rgb(49, 49, 49);
-    height: 8em;
+header{font-family: "LibreBaskerville";
+    background-color: rgba(49, 49, 49, 0.972);
+    height: 12em;
     color: rgb(223, 226, 209);
     text-align: center;
 }
 
 header p {
-     margin-top: 2em ;
-     font-size: 1.5em;
+     font-family: LibreBaskerville;
+     margin-top: 1.3em ;
+     font-size: 3em;
 }
 
 
@@ -49,7 +57,7 @@ section{
 }
 
 .title-description p{
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 h1{
@@ -146,7 +154,7 @@ footer p {
     text-align: left;
     border: 1px solid rgb(53, 53, 53);
     transition: all 0.5s;
-    font: 20px lato, sans-serif;
+    font-size: 1.4em;
     outline: none;
 }
 .active, .accordion:hover{
@@ -173,7 +181,7 @@ footer p {
 }
 
 header p {
-    margin-top: 1em ;
+    margin-top: 1.8em ;
     font-size: 2.5em;
 }
 
