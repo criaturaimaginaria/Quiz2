@@ -11,7 +11,10 @@ body{
     display: flex;
     flex-direction: column;   
     background-image: url(backSquares.jpg) ;
-    background-size: cover;
+    background-size:cover;
+  
+    background-attachment: fixed ;
+   
 }
 
 
