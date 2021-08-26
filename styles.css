@@ -180,7 +180,7 @@ footer p {
     text-align: left;
     border: 1px solid rgb(53, 53, 53);
     transition: all 0.5s;
-    font-size: 1.2em;
+    font-size: 1.5em;
     outline: none;
 }
 .active, .accordion:hover{
@@ -196,7 +196,7 @@ footer p {
 }
 
 .panel label{
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 
