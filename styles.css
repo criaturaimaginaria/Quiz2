@@ -274,14 +274,25 @@ section{
 
 .btn{
     font-size: 4.5em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(226, 226, 226);
+    border-color: rgb(24, 117, 82);
+    border-bottom: 3px solid rgb(0, 45, 66);
+    transition: 0.1s;
 }
 .btn:hover{
+ 
     font-size: 4.5em;
+    color: rgb(24, 24, 24);
+    background-color: rgb(246, 246, 246);
+    border-color: rgb(75, 165, 130);
+    border-bottom: 3px solid rgb(0, 5, 15);
 }
 
 h3{
     font-size: 2em;
 }
+
 
 
  section B{
