@@ -124,10 +124,10 @@ h3{
     font-size: 1.2em;
 }
 
-.result-box B {
+section B {
     font-size: 1.3em;
 }
-.result-box p {
+section p {
     font-size: 1.3em;
 }
 
@@ -276,6 +276,7 @@ section{
 h3{
     font-size: 2em;
 }
+
 
  section B{
     font-size: 2em;
