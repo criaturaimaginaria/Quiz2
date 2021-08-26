@@ -10,6 +10,8 @@ body{
 .flex-container{
     display: flex;
     flex-direction: column;   
+    background-image: url(backSquares.jpg) ;
+    background-size: cover;
 }
 
 
@@ -34,6 +36,7 @@ section{
     margin-top: 2vw;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0.5em;
 }
 
 .title-description{
@@ -104,15 +107,26 @@ h1{
 footer{
     /* border-top: 1px solid rgb(0, 0, 0); */
     background-color: rgb(49, 49, 49);
-    height: 5em;
+    height: 8em;
     text-align: center;
 }
 
 footer p {
     color: white;
-    margin-top: 1.5em;
+    font-size: 1.3em;
+    margin-top: 2em;
 }
 
+.gitHub{
+    font-size: 1.3em;
+    padding-top: 2em;
+    color: white;
+    border-bottom: none;
+    text-decoration: none;
+}
+.gitHub:hover{
+    color: rgb(173, 173, 173);
+}
 
 
 /* ------------------------ */
@@ -187,6 +201,7 @@ section{
     background-color: rgb(204, 204, 204);
     width: 100vw;
     margin-top: 0vw;
+    margin-bottom: 0em;
     
 }
 .wrapper-container{
@@ -230,10 +245,24 @@ h3{
     width:13em;
 }
 
+footer  {
+    height: 15em;
+    text-align: start;
+    padding-left: 1em;
+}
+
 footer p {
     color: white;
     margin-top: 0.5em;
     font-size: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.3em;
+    margin-left: 0.8em;
+}
+
+.gitHub{
+    margin-left: 0.8em;
+    font-size: 2.2em;
 }
 
 
