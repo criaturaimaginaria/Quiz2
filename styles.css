@@ -35,7 +35,7 @@ header{
     
     font-family: "LibreBaskerville";
     background-color: rgba(49, 49, 49, 0.972);
-    height: 12em;
+    height: 10em;
     color: rgb(223, 226, 209);
     text-align: center;
 }
@@ -44,8 +44,8 @@ header{
 
 header p {
      font-family: LibreBaskerville;
-     margin-top: 1.3em ;
-     font-size: 3em;
+     margin-top: 1em ;
+     font-size: 2.7em;
 }
 
 
@@ -70,13 +70,13 @@ section{
 }
 
 .title-description p{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 h1{
     font-family:LibreBaskerville ;
     display: inline;
-    font-size: 2em;
+    font-size: 1.8em;
     border-bottom: 1px solid black;
 }
 
@@ -101,13 +101,13 @@ h1{
    text-align:inherit;
     width: 50vw;
     margin-top: 2em;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-left: 2em;
 }
 
 .btn{
     margin: 0.5em 0em 0.5em 0em;
-    font-size: 2.5em;
+    font-size: 2.2em;
     padding:0.1em;
     color: rgb(0, 0, 0);
     background-color: rgb(226, 226, 226);
@@ -116,7 +116,7 @@ h1{
     transition: 0.1s;
 }
 .btn:hover{
-    font-size: 2.5em;
+    font-size: 2.2em;
     padding:0.1em;
     color: rgb(24, 24, 24);
     background-color: rgb(246, 246, 246);
@@ -125,26 +125,26 @@ h1{
 }
 
 h3{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 section B {
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 section p {
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 
 .symbol{
-    width: 9em;
+    width: 8.7em;
 }
 
 
 footer{
     /* border-top: 1px solid rgb(0, 0, 0); */
     background-color: rgb(49, 49, 49);
-    height: 8em;
+    height: 7.8em;
     text-align: center;
 }
 
@@ -196,7 +196,7 @@ footer p {
 }
 
 .panel label{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
