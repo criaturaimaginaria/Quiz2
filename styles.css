@@ -53,7 +53,7 @@ header p {
 section{
     font-family: LibreBaskervilleRegular;
     font-size: 16px;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(224, 224, 224);
     width: 88vw;
     margin-top: 2vw;
     margin-left: auto;
@@ -170,8 +170,8 @@ footer p {
 
 
 .accordion{
-   
-    background-color: #1d8d7100;
+    background-color: rgb(218, 218, 218);
+    /* background-color: #1d8d7100; */
     /* color: #fff; */
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -184,7 +184,7 @@ footer p {
     outline: none;
 }
 .active, .accordion:hover{
-    background-color: #888888;
+    background-color: #a19ea3;
 }
 .panel{
    font-size: 16px;
