@@ -2,6 +2,11 @@
     font-family: "LibreBaskerville";
     src: url("fontFamily/LibreBaskerville-Italic.ttf");
 }
+@font-face {
+    font-family: "LibreBaskervilleRegular";
+    src: url("fontFamily/LibreBaskerville-Regular.ttf");
+}
+
 
 *{
     padding: 0px;
@@ -54,6 +59,8 @@ section{
 }
 
 .title-description{
+    
+    font-family:LibreBaskervilleRegular ;
     margin-top: 2em;
     margin-left: 2.5em;
     width: 70vw;
@@ -164,7 +171,7 @@ footer p {
     background-color: #888888;
 }
 .panel{
-   
+   font-size: 1.3em;
     background-color: #fff;
     overflow: hidden;
     max-height:0;
@@ -231,14 +238,17 @@ section{
 
  .accordion{
     width: 90vw;
+    font-size: 2em;
 }
 
 .panel{
     width: 90vw;
+    font-size: 1.5em;
 }
 
  .panel label{
-    font-size: 2.3em;
+    font-size: 2em;
+    font-size: 1em;
 }
 
 .btn{
